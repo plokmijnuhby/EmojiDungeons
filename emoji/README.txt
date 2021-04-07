@@ -21,7 +21,7 @@ fix this (or at least try to). To run it, first of all check that EmojiDungeons
 and the mods you want to run are in the game's mod folder, and make sure python
 is installed on your computer. Then open your file explorer, navigate to the
 EmojiDungeons root file and double click the script to run it. Alternatively,
-open the command line, go to the same folder and type "python -m support". After
+open the command line, go to the same folder and type "python -m translate". After
 that, running the game with the other mods should be at least slightly better.
 The script can translate about 50% of equipment descriptions, although your
 mileage may vary, and it is less good with other things a mod might contain.
