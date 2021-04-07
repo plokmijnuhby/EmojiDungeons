@@ -1,8 +1,8 @@
 {
-	"title":"Emoji",
+	"title":"EmojiDungeons",
 	"description":"Adds an emoji language",
-	"author":"Dominic Littlewood",
+	"author":"plokmijnuhby",
 	"api_version":"1.0",
 	"mod_version":"1.0.0",
-	"license":"MIT"
+	"license":"CC BY 4.0"
 }
