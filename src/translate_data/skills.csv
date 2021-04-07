@@ -1,0 +1,106 @@
+Name,Translation,Description
+Weaken Spell,[weaken]🪄,Ignore Shields
+Recycle,[recycle],Reuse all equipment
+Fury,[fury],Double next action
+Firebomb,[fire]💣,Do [fire]8 fire damage
+Infinite Dice,[dice][dice][dice],Get more dice
+Magic Dice,🪄[dice],Roll an extra dice
+Focus,😖,All dice become 6
+Reroll,🔄,Reroll unused dice
+Shield Bash,[shield]👊,Bash with shield
+Rage,😡,Roll 2 dice[;] -5[heart]
+Dexterity,🔁[dice],Keep dice after attack
+Emetic,🤮💊,Cures Poison,Emética,Cura envenenamento
+Flashbang,📸💣,Shocks enemy
+Hook,🪝,Reuse next equipment
+Overdrive,🏎️,Reduce countdowns by 99
+Teleport,[dodge],Evade next attack
+Meganudge,⬆➖,[]-1 to all dice
+Megabump,⬆➕,[]+1 to all dice
+Jetpack,🚀,Flee Immediately
+Accelerate,🏃,Reduce countdowns by 6
+Barricade,🚧,Shield +[shield]3
+Jackhammer,🛣️🔨,Shock [shock]3 equipment
+Pea Gun,🟢🔫,Do [sword]3 damage
+Blowtorch,🌋,Do [fire]3 fire damage
+Clone Device,[dice]🖨,Duplicate all dice
+Battle Wrench,⚔🔧,Combine all dice
+Refrigerator,🥶🖨,Freeze [ice]1 dice
+Protection,😷,Reduce dmg by [reduce]1
+Regenerate,[heal],Heal [heal]3 health
+Steal,📥↗🛠,Borrow equipment
+Plasma Gun,⬆🔫,Do [sword]5 damage
+Unlucky Roll,⬇🍀🔄,Roll 4 extra 1s
+Broomstick,🧹,Roll 3 extra dice
+Burrower,🐇🕳,[]Weaken [weaken]3
+Bear Smash,🐻💔,Do [sword]10 damage
+Robot Roll,🤖🔄,Internal function when robot clicks roll
+One More Roll,➕1🔄,Roll one more dice
+Autoroll,🔄🖨,Jackpot guaranteed
+Lucky Shot,🍀🔫,Do [sword]5 damage
+Crystal Ball,🔮,Roll 3 extra dice,Bola de Cristal,Lance 3 dados extra,
+Match 3,🧦3,Copy first card twice
+Warrior Smash,⚔🧑💔,Do [sword]6 damage
+Magic Lockpick,🪄📎[lock],Split a random dice,Gazua Mágica,Divida um dado aleatório,
+Magic Trick,🪄,Discard current hand
+Inspiration,☝️😀,Copy the next card
+Reinforce,⛓️,Upgrade the next card
+Throw Dice,🤾[dice],Do [sword]1 damage
+Snake Eyes,🐍👀,Roll 2 ones
+Heat Ray,🥵🔫,Burn all dice
+Jackpot,🎉,Jackpot guaranteed
+Snap!,🤞,Matching cards can be used for free this turn
+Theremin,🎺,Do [weaken]3 damage
+Static Shock,🙆🎈[shock],Do [shock]3 damage
+Mulligan,🔁,Undo this turn[;] and take it again
+Very Unlucky Roll,⛔🍀🔄,Roll 2 extra 1s,[90%]Dados Muito Azarados,Role dois 1s extras,
+Tantrum,🤬,Do [fire]4 fire damage
+Unfocused,⛔😖,Set all dice to the same random value
+Marble,🔄🔄,Roll 2 extra dice,Bolinha de Gude,Role 2 dados extra,
+Fury?,[fury]❓,Double next action[;] but that equipment cannot be used next turn.
+Unlucky Roll?,⬇🍀🔄❓,Roll between 2 and 5 extra 1s
+Broken Gadget,💔🎛,No effect
+Slot Machine,🎰,Get random equipment
+Reversal,↪️,Swap all equipment
+Stardust,❇️,Random status effect
+Power Up,➕🔋,Gain a random blessing
+Poison Arrow,[poison]🏹,Inflict [poison]2 poison
+Time Stop,⏲🛑,Take an extra turn (once)
+Blood Sip,⬇🩸🥤,Drain [heart]2 health,Golinho de Sangue,Drena [heart]2 de vida,
+Infinity Mirror,🪞🪞🪞,[]+1 dice this fight
+Megaflip,⬆🔀,Flip all dice upside down
+Magic Six,🪄6,Roll a six
+Bubble Gun,💧🔫,Do [sword]1 damage
+Shuriken,🥷[star],Do [sword]4 damage
+Catapult,🤾🖨,Do [sword]9 damage
+Cackle,🧙‍♀️🤣,Curse the enemy
+Quick Thinking,🏃🧠,Gain [dodge]1 dodge
+Random Roll,❓🔄,Reroll a random dice
+Arctic Storm,🧭⛈,Freeze a random amount
+Pillow Fort,🛋️🏰,Reduce by [reduce]2
+Zap,⬇[shock],Inflict [shock]1 shock
+Ember,⬇[fire],Inflict [fire]1 burn
+Mumble,🤐,Inflict [weaken]1 weaken
+Needle,🪡,Gain [thorns]1 thorn
+Efficiency,🍗,Gain [recycle]1 re-equip
+Scream,😨,Weaken a random amount
+Harvest,🌾,Gain [gold]1 gold (once)
+Overload,➕🌀,Double status effects
+Dial Up Sounds,📠🔊,Inflict [weaken]5 weaken (once)
+Magic Spanner,🪄🔧,Combine random dice
+Replicate,❓[dice][dice],Copy a random dice
+Flash Freeze,📸[ice],Do [ice]4 ice damage
+Hellfire,😈[fire],Burn a random amount
+Still Standing,✊,Gain survive[;] lose [heart]6
+Against all odds,⚔♾🪙,Roll 4 even dice
+Against all odds_old,⚔♾🪙,Survive all fatal blows until the next turn
+Something Else,⛔👉🎛,
+Oh No!,😧,Roll 4 even dice
+Trips,🤸🤸,Roll three dice at the current uptick value
+Two more rolls,➕🔄🔄,Inflict [shock][;] [fire][;] and [ice]
+Dramatic Pause,🙌⏸️,Curse the enemy,Pausa Dramática,Amaldiçoa um inimigo,
+No[comma] you,🙅↗,Swap the next target
+Mutate,🧬,Randomize enemy
+Night Terrors,💤😨,Take [sword]999 damage
+Bullseye,🎯,Inflict [lock]1 lock
+Recovery,🛌,Recover [heal]6 health

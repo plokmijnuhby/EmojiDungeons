@@ -1,0 +1,406 @@
+Original,Replacement
+Bash with shield[;]|do [shield]<myshield> damage,[shield]👊|do [shield]<myshield> damage
+Bash with shield[;] do [shield]<myshield>|damage[;] but lose all shield,[shield]👊|do [shield]<myshield> damage|lose all shield
+Reduce health to [heart]1,[heart]▶1
+Ignore shields,[shield]🤷
+Ignore Shields,[shield]🤷
+Silence Enemy,Silence Enemy
+Do [sword]2 damage|Silence Enemy,Do [sword]2 damage|Silence Enemy
+All equipment is|reuseable this turn,All equipment 🔁🖐 this turn
+If enemy rolls <d6>[;]|that dice is locked,If enemy rolls <d6>|👉↗ dice is [lock]
+Split a dice in three,🪚[dice]▶️[dice][dice][dice]
+Survive the next fatal|blow (Doesn't stack),Survive the next fatal blow|⛔📚
+Takes final [heart]5 hp|from vampires,🧛‍♂➖⏭[heart]5
+Do [sword]30 damage|(to vampires),📤[sword]30🤕🧛‍♂
+Mysterious old staff|Inflict [poison]??? poison,🕵️🎇|📤[poison]❓❓❓
+Mysterious shield|Add [shield]??? shield,🕵️[shield]|➕[shield]❓❓❓
+Very mysterious,🕵️🕵️
+Contents upgraded,🧰🛠➕
+Run away!,🚪🏃
+Discharge [sword]<charge> damage|Take damage to charge,📤🔋[sword]<charge>🤕|📥🤕➡️➕
+Discharge[;] but do|zero damage,📤🔋|0🤕
+Split a dice into 1s,🪚[dice]▶️[dice]1
+Use an additional|Jackpot ability,🎉➡️🎛🎛
+Use all additional|Jackpot abilities,🎉➡️♾🎛
+Do [sword]<dicetotal> damage|[gray](equal to total roll),📤[sword]<dicetotal>🤕|➕♾[dice]roll
+Unlocks Keyblade[;]|return the dice,📥🔑🗡|return the dice
+Unlocks Keyblade+[;]|return the dice,📥🔑🗡➕|return the dice
+Transform into a bear[;]|recover [heal]12 health,📥🐻👗|recover [heal]12 health
+Transform into a bear,📥🐻👗
+Create a random|crystal weapon,📥❓💎🛠
+Inflict [shock] shock[;]|[fire] burn[;] and [ice] freeze,Inflict [shock] shock [fire] burn and [ice] freeze
+Warrior Smash|[sword]<var:bopcount> dmg[;] +1 per bop,⚔🧑💔|[sword]<var:bopcount> dmg[;] +1 per 🤛
+Pea Gun|Do [sword]3 damage,🟢🤾|Do [sword]3 damage
+Warrior Charge|Add 3 to Kapow damage,⚔️🧑🏃|💥🤕➕3
+Yoink|Borrow equipment,⏏️|Borrow equipment
+Snake Eyes|Roll 2 ones,🐍👀|Roll 2 ones
+Black Market|Rent a powerful item|Costs [gold]1[;] you have [gold]<gold>,⚫🛒|📥👍🛠👉⌛|➖[gold]1↙[gold]<gold>
+Slot Machine|Get random equipment,🎰|Get random equipment
+Regenerate|Heal [heal]3 health,[heal]|Heal [heal]3 health
+Power Surge|Add +1 to all dice|less than six,🔌[shock]|Add +1 all dice ⤵️5
+Magic Trick|Discard current hand,🪄|👐🛠🛠🛠
+Magic Dice|Roll an extra dice,🪄[dice]|Roll an extra dice
+Multicard!|Add an extra card to|your hand (this turn),🛠🛠🛠🛠|📥🛠📮 this turn
+Inspiration|Copy next card,☝️😀|⏩🛠▶🛠🛠
+Barricade|Shield +[shield]3,🚧|Shield +[shield]3
+Random Access|Copy a random item|from your deck,❓🖥|❓🗃🛠▶🛠🛠
+After the battle[comma] keep|one piece of equipment,⏭👉⚔📥↗️🛠
+After the battle[comma] keep[newline]one piece of equipment,⏭👉⚔📥↗️🛠
+After the battle[comma] keep[newline]one piece of equipment[newline][gray](activated),⏭👉⚔📥↗️🛠|⛔🖐👉⚔
+Add a Juggling Ball to|your deck for this fight,🗃📥🤹👉⚔
+Permanently delete the|first card in your hand,🗑️first item
+Do [sword]<d6> damage[;] double|if your health is below 50%,Do [sword]<d6> damage|[heart]⛔⤴📊➗2➡2✖️damage
+Do [sword]<double> damage[;] can|only use on even turns,Do [sword]<double> damage|use even turns
+Do [sword]<double> damage[;] can|only use on odd turns,Do [sword]<double> damage|use odd turns
+Do [sword]<d6> damage[;] lock|enemy dice that roll <d6>,Do [sword]<d6> damage|lock enemy dice roll<d6>
+On 1: Do [sword]<var_tempparticleacceleratorkludge:particleaccelerator> damage|on 2-6: Double damage,[dice]1➡ Do [sword]<var_tempparticleacceleratorkludge:particleaccelerator> damage|[dice]23456➡ Double damage
+Double damage|(currently at [sword]<var_tempparticleacceleratorkludge:particleaccelerator>),Double damage|👉🤕[sword]<var_tempparticleacceleratorkludge:particleaccelerator>
+[90%]Even turns: [sword]<eventurn_d6> damage|[90%]Odd turns: [shield]<oddturn_d6> shield,Even turns: [sword]<eventurn_d6> damage|Odd turns: [shield]<oddturn_d6> shield
+Keep the next dice you|use[;] and return this dice,📥⏩[dice]🖐|and return this dice
+Reroll the dice[;] get a|higher value than before,📥[dice]⛔⤵👉[dice]
+Reroll with higher value|[gray](Reuseable),📥[dice]⛔⤵👉[dice]|
+First dice value +1|Second dice value -1,👉📮📮[dice]value +1|📮📮👈[dice]value -1
+Do 2x[shield]<myshield> damage[;]|but depletes your shield,📤2✖[shield]<myshield>🤕|⛔[shield]
+Do [sword]<d6> damage[;]|on 1[;] gain [reduce]1 instead,[dice]1➡gain [reduce]1|⛔1➡Do [sword]<d6> damage
+Do [sword]<d6> damage[;]|on 1[;] gain [reduce]2 instead,[dice]1➡gain [reduce]2|⛔1➡Do [sword]<d6> damage
+Repeat next action[;] but|disable it next turn,next 🖐 repeat this turn ⛔🖐⏩ turn
+Weaken if you use 6[;] then|do [weaken]<d6> damage,🖐6➡[weaken]|do [weaken]<d6> damage
+Contains a powerful item,🐣👍🛠
+Contains a bigger|powerful item,🐣⬆👍🛠
+Contains a powerful item|Keep going!,🐣👍🛠|❗🔁🖐
+Contains a terrible item|(Always offered as scrap),🐣👎🛠|Always offered as scrap
+Contents are even worse|(Always offered as scrap),🐣👎👎🛠|Always offered as scrap
+Do [sword]<double> damage|(Slots shrink on each roll),Do [sword]<double> damage|➖📮♾[dice]roll
+Freeze all of your|own dice,Freeze all↙dice
+Do [sword]2 damage for each|unused dice ([sword]<doubleunassigneddice> total),Do [sword]2 damage♾⛔🖐[dice]|👉[sword]<doubleunassigneddice>
+[sword]2 per unused dice ([sword]<doubleunassigneddice>)|[gray](Reuseable),Do [sword]2 damage♾⛔🖐[dice]|👉[sword]<doubleunassigneddice>
+Do [sword]1 damage for each|unused dice ([sword]<unassigneddice> total),Do [sword]1 damage♾⛔🖐[dice]|👉[sword]<unassigneddice>
+Change jackpot abilities|[gray](Reuseable),roll🎉🎛️|
+Return two of the|difference between dice,↪[dice][dice]|🔢[dice]➖[dice]
+Return three of the|difference between dice,↪[dice][dice][dice]|🔢[dice]➖[dice]
+Return the difference|between the dice,↪[dice]|🔢[dice]➖[dice]
+[sword]<d6>[;] return difference|[gray](Reuseable),[sword]<d6>|return 🔢[dice]➖[dice]|
+Undo turn[;] take it again,🗑️👉⌛🔁⌛
+Undo this turn[;] and take it again,🗑️👉⌛🔁⌛
+Undo turn[;] take it again[;]|immune to errors,🗑️👉⌛🔁⌛|immune to errors
+Double the success odds|of chance based items,2✖🍀♾️🪙🛠
+Chance based items|work 100% of the time,🪙🛠🍀♾️🖐
+The next roll won't|exceed the CPU target,⏩[dice]roll⤵🎉
+Split a dice evenly,🪚[dice]⚖
+Dice value -1. On 1[;]|instead return two 1s,[dice]1➡↪[dice][dice]1|⛔1➡[dice]🔢➖1
+Dice value -1. On 1[;]|instead return two dice,[dice]1➡↪[dice][dice]|⛔1➡[dice]🔢➖1
+Permanently upgrade the|first card in your hand|[gray](once per battle),first item➕[gray](once per battle)
+Do [sword]9 damage[;]|+1 dice this fight,Do [sword]9 damage|+1 dice this fight
+Do [sword]<var_tempkapowkludge:kapowcount> damage[;] +1 for|each kapow used this turn,Do [sword]<var_tempkapowkludge:kapowcount> damage|➕1♾💥 used this turn
+Do [sword]<var_tempkapowkludge:kapowcount> damage[;] +2 for|each kapow used this turn,Do [sword]<var_tempkapowkludge:kapowcount> damage|➕2♾💥 used this turn
+Increase Kapow counter,➕💥🔢
+Do [sword]<d6> damage[;]|quadruple if you are cursed,Do [sword]<d6> damage[;]|↙[curse]➡4✖
+Do [sword]3 damage[;] snap 3|at once to gain [fury]Fury,Do [sword]3 damage|🤞3😠⚔️➡gain [fury]Fury
+Make unavailable cards|available[;] return dice,🤷🛠➡⛔🤷|return dice
+Get a new dice[;] on 6|get +1 dice this fight,Get a new dice| on 6|get +1 dice this fight
+Do [sword]1 damage for each|[mana]1 mana you have,Do [sword]1 damage each [mana]1 mana↙
+Place two copies of the|next spell you cast,📥2🛠⏩📓🖐
+Consume spell in slot <d6>|to do [sword]<quadruple> damage,🗑📓📮<d6>|do [sword]<quadruple> damage
+Consume spell in slot <d6>|to do [sword]<quintuple> damage,🗑📓📮<d6>|do [sword]<quintuple> damage
+Double dice value|(Cost [mana]1[]: instead[;] triple),Double dice value|(Cost [mana]1[]: triple)
+Get 2x<d6>s next turn|(If [mana]>=5: get 3 instead),Get [dice][dice]<d6>s next turn|If [mana]>=5: get 3x
+Get 4x<d6>s next turn|(If [mana]>=5: get 6 instead),Get [dice][dice][dice][dice]<d6>s next turn|If [mana]>=5: get 6
+Replace the spell in slot <slotdoubles>|with a random spell,📓📮<slotdoubles>❓🛠
+Replace the spell in slot <d6>|with a random spell,📓📮<d6>❓🛠
+Replace the spell in slot 1|with a random spell,📓📮1❓🛠
+Do [sword]<d6> damage[;]|gain [mana]2 mana on 2 or less,Do [sword]<d6> damage[;]|[dice]⤵2➡ gain [mana]2 mana
+Split a dice as|evenly as possible,🪚[dice]⚖
+Split a six evenly,🪚[dice]6⚖
+Split a dice unevenly,🪚[dice]⛔⚖
+Split a dice unevenly|[gray](Reuseable),🪚[dice]⛔⚖|
+Flip a dice upside down[;]|duplicate the flipped dice,Flip a dice upside down|👉[dice]▶[dice][dice]
+Duplicate one dice[;]|return the other,👉📮📮[dice]▶[dice][dice]|return📮📮👈[dice]
+Do [sword]1. If this is the final|blow[;] gain [heal] 2 max hp,Do [sword]1|↗️⚰➡[heart]📊gain [heal] 2
+Do [sword]<d6> damage[;] if|enemy hp is full[;] do double,Do [sword]<d6> damage|↗️[heart]⤴[heart]📊➡double
+Self inflict [fire]1 burn|(Always offered as scrap),📥[fire]1 burn|Always offered as scrap
+Do [sword]20 damage|At max level,Do [sword]20 damage|⬆💪
+Get a temporary gadget|[gray](once per battle),📥🎛️👉⚔[gray](once per battle)
+Do [sword]<d6> damage|to both enemy and you,Do [sword]<d6> damage enemy and you
+Multiply dice together[;]|do that much damage,📤[dice]🔢✖[dice]🔢🤕
+Do [sword]<d6> damage[;]|on 6[;] reactivate gadget,Do [sword]<d6> damage|on 6|🎛️➕1🖐
+Do [sword]<d6> damage[;]|blind all dice,Do [sword]<d6> damage[;]|[blind] all dice
+Issue commandments,📤📜
+Issue commandments[;]|curse yourself,📤📜|📥[curse]
+Do [sword]<triple> damage[;] if|enemy has any shield[;] miss,Do [sword]<triple> damage|if enemy has any shield|⛔🤕
+Do [sword]<quadruple> damage[;] if|enemy has any shield[;] miss,Do [sword]<quadruple> damage|if enemy has any shield|⛔🤕
+Do [sword]<double> damage[;] if|enemy has any shield[;] miss,Do [sword]<double> damage|if enemy has any shield|⛔🤕
+Do [sword]<triple>[;] plants|take only [sword]1 damage,Do [sword]<triple>| 🌿➡[sword]1 damage
+Do [sword]<quadruple>[;] plants|take only [sword]1 damage,Do [sword]<quadruple>| 🌿➡[sword]1 damage
+Do [sword]<d6>[;] plants|take only [sword]1 damage,Do [sword]<d6>| 🌿➡[sword]1 damage
+Do [sword]<triple>[;] hat wearers|take only [sword]1 damage,Do [sword]<triple>| 🎩➡[sword]1 damage
+Do [sword]<quadruple>[;] hat wearers|take only [sword]1 damage,Do [sword]<quadruple>| 🎩➡[sword]1 damage
+Do [sword]<d6>[;] hat wearers|take only [sword]1 damage,Do [sword]<d6>| 🎩➡[sword]1 damage
+Do [sword]<triple>[;] green things|take only [sword]1 damage,Do [sword]<triple>| 🟢➡[sword]1 damage
+Do [sword]<quadruple>[;] green things|take only [sword]1 damage,Do [sword]<quadruple>| 🟢➡[sword]1 damage
+Do [sword]<d6>[;] green things|take only [sword]1 damage,Do [sword]<d6>| 🟢➡[sword]1 damage
+Do [sword]<triple>[;] sword|holders take only [sword]1,Do [sword]<triple>| [sword]➡[sword]1
+Do [sword]<quadruple>[;] sword|holders take only [sword]1,Do [sword]<quadruple>| [sword]➡[sword]1
+Do [sword]<d6>[;] sword|holders take only [sword]1,Do [sword]<d6>| [sword]➡[sword]1
+Do [sword]<triple>[;] shield|holders take only [sword]1,Do [sword]<triple>| [shield]➡[sword]1
+Do [sword]<quadruple>[;] shield|holders take only [sword]1,Do [sword]<quadruple>| [shield]➡[sword]1
+Do [sword]<d6>[;] shield|holders take only [sword]1,Do [sword]<d6>| [shield]➡[sword]1
+Do [sword]<triple>[;] spear|holders take only [sword]1,Do [sword]<triple>| 🤺➡[sword]1
+Do [sword]<quadruple>[;] spear|holders take only [sword]1,Do [sword]<quadruple>| 🤺➡[sword]1
+Do [sword]<d6>[;] spear|holders take only [sword]1,Do [sword]<d6>| 🤺➡[sword]1
+Do [sword]<triple>[;] animals|take only [sword]1 damage,Do [sword]<triple>| 🐄➡[sword]1 damage
+Do [sword]<quadruple>[;] animals|take only [sword]1 damage,Do [sword]<quadruple>| 🐄➡[sword]1 damage
+Do [sword]<d6>[;] animals|take only [sword]1 damage,Do [sword]<d6>| 🐄➡[sword]1 damage
+Do [sword]<triple>[;] things that|can float take only [sword]1,Do [sword]<triple>| 🎈️➡[sword]1
+Do [sword]<quadruple>[;] things that|can float take only [sword]1,Do [sword]<quadruple>| 🎈️➡[sword]1
+Do [sword]<d6>[;] things that|can float take only [sword]1,Do [sword]<d6>| 🎈️➡[sword]1
+Do [sword]<triple>[;] things with|eyewear take only [sword]1,Do [sword]<triple>| 👓➡[sword]1
+Do [sword]<quadruple>[;] things with|eyewear take only [sword]1,Do [sword]<quadruple>| 👓➡[sword]1
+Do [sword]<d6>[;] things with|eyewear take only [sword]1,Do [sword]<d6>| 👓➡[sword]1
+Do [sword]<triple>[;] bosses|take only [sword]1 damage,Do [sword]<triple>| 👑➡[sword]1 damage
+Do [sword]<quadruple>[;] bosses|take only [sword]1 damage,Do [sword]<quadruple>| 👑➡[sword]1 damage
+Do [sword]<d6>[;] bosses|take only [sword]1 damage,Do [sword]<d6>| 👑➡[sword]1 damage
+Do [sword]<triple>[;]  level 1|monsters take only [sword]1,Do [sword]<triple>|  💪1➡[sword]1
+Do [sword]<quadruple>[;]  level 1|monsters take only [sword]1,Do [sword]<quadruple>|  💪1➡[sword]1
+Do [sword]<d6>[;]  level 1|monsters take only [sword]1,Do [sword]<d6>|  💪1➡[sword]1
+Do [sword]<triple>[;] firey things|take only [sword]1 damage,Do [sword]<triple>| [fire]➡[sword]1 damage
+Do [sword]<quadruple>[;] firey things|take only [sword]1 damage,Do [sword]<quadruple>| [fire]➡[sword]1 damage
+Do [sword]<d6>[;] firey things|take only [sword]1 damage,Do [sword]<d6>| [fire]➡[sword]1 damage
+Do [sword]<triple>[;] poison|things take only [sword]1,Do [sword]<triple>| [poison]➡[sword]1
+Do [sword]<quadruple>[;] poison|things take only [sword]1,Do [sword]<quadruple>| [poison]➡[sword]1
+Do [sword]<d6>[;] poison|things take only [sword]1,Do [sword]<d6>| [poison]➡[sword]1
+Do [sword]<triple>[;] machines|take only [sword]1 damage,Do [sword]<triple>| 🖨➡[sword]1 damage
+Do [sword]<quadruple>[;] machines|take only [sword]1 damage,Do [sword]<quadruple>| 🖨➡[sword]1 damage
+Do [sword]<d6>[;] machines|take only [sword]1 damage,Do [sword]<d6>| 🖨➡[sword]1 damage
+Do [sword]<triple>[;] magic users|take only [sword]1 damage,Do [sword]<triple>| 🪄➡[sword]1 damage
+Do [sword]<quadruple>[;] magic users|take only [sword]1 damage,Do [sword]<quadruple>| 🪄➡[sword]1 damage
+Do [sword]<d6>[;] magic users|take only [sword]1 damage,Do [sword]<d6>| 🪄➡[sword]1 damage
+Do [sword]<triple>[;] winged|creatures take only [sword]1,Do [sword]<triple>| 🦋➡[sword]1
+Do [sword]<quadruple>[;] winged|creatures take only [sword]1,Do [sword]<quadruple>| 🦋➡[sword]1
+Do [sword]<d6>[;] winged|creatures take only [sword]1,Do [sword]<d6>| 🦋➡[sword]1
+Do [sword]<triple>[;] dice|people take only [sword]1,Do [sword]<triple>| [dice]⚔️➡[sword]1
+Do [sword]<quadruple>[;] dice|people take only [sword]1,Do [sword]<quadruple>| [dice]⚔️➡[sword]1
+Do [sword]<d6>[;] dice|people take only [sword]1,Do [sword]<d6>| [dice]⚔️➡[sword]1
+Do [sword]<triple>[;] creatures|with more than four limbs|take only [sword]1 damage,Do [sword]<triple>| ⤴️5🦵➡[sword]1 damage
+Do [sword]<quadruple>[;] creatures|with more than four limbs|take only [sword]1 damage,Do [sword]<quadruple>| ⤴️5🦵➡[sword]1 damage
+Do [sword]<d6>[;] creatures|with more than four limbs|take only [sword]1 damage,Do [sword]<d6>| ⤴5🦵➡[sword]1 damage
+Do [sword]<triple>[;] if target has|[heart]6 or less[;] take only [sword]1,Do [sword]<triple>| ⤵️[heart]6➡[sword]1
+Do [sword]<quadruple>[;] if target has|[heart]6 or less[;] take only [sword]1,Do [sword]<quadruple>| ⤵️[heart]6➡[sword]1
+Do [sword]<d6>[;] if target has|[heart]6 or less[;] take only [sword]1,Do [sword]<d6>| ⤵️[heart]6➡[sword]1
+Do [sword]<triple>[;] if target has|full health[;] take only [sword]1,Do [sword]<triple>| [heart]⤴[heart]📊➡[sword]1
+Do [sword]<quadruple>[;] if target has|full health[;] take only [sword]1,Do [sword]<quadruple>| [heart]⤴[heart]📊➡[sword]1
+Do [sword]<d6>[;] if target has|full health[;] take only [sword]1,Do [sword]<d6>| [heart]⤴[heart]📊➡[sword]1
+Switch Fighter|[gray](Once per turn)[],↔⚔|[gray]1🖐♾️⌛[]
+Select,🙋
+Increase and reset all dice|[gray](Current uptick: 1),➕1🔁♾[dice]|👉🎚1
+Increase and reset all dice|[gray](Current uptick: 2),➕1🔁♾[dice]|👉🎚2
+Increase and reset all dice|[gray](Current uptick: 3),➕1🔁♾[dice]|👉🎚3
+Increase and reset all dice|[gray](Current uptick: 4),➕1🔁♾[dice]|👉🎚4
+Increase and reset all dice|[gray](Current uptick: 5),➕1🔁♾[dice]|👉🎚5
+Reset uptick to 1|[gray](Current uptick: 6),🎚1|👉🎚6
+Do [sword]3 damage[;]|reroll with lower value,Do [sword]3 damage|reroll ⛔⤴ value
+Do [sword]4 damage[;]|reroll with lower value,Do [sword]4 damage|reroll ⛔⤴ value
+Change the weather[;]|recover [heal]3 health,↔️🌧️|recover [heal]3 health
+Change the weather[;]|recover [heal]6 health,↔🌧️|recover [heal]6 health
+Change the weather,↔️🌧️
+Do [sword]<d6> damage[;]|on 4[;] you can re-use this,Do [sword]<d6> damage|on 4|👉🛠️➕1🖐
+Do [sword]<d6> damage[;]|on 5[;] you can re-use this,Do [sword]<d6> damage|on 5|👉🛠️➕1🖐
+Replace the spell in slot <slotdoubles>|with the unexpected spell,📓📮<slotdoubles>▶👉❓🛠️
+Replace the spell in slot <d6>|with the unexpected spell,📓📮<d6>▶👉❓🛠️
+Replace the spell in slot 1|with the unexpected spell,📓📮1▶👉❓🛠️
+Shred a big dice into|other[;] smaller dice,🪚⬆️[dice]▶⬇[dice]
+Self inflict [ice]1 freeze|(Always offered as scrap),📥[ice]1 freeze|Always offered as scrap
+Self inflict [ice]2 freeze|(Always offered as scrap),📥[ice]2 freeze|Always offered as scrap
+Reduce health in half,[heart]➗2
+Lock dice that roll <d6>|[gray](Reuseable),Lock dice roll <d6>|
+Split a dice in two|On six[;] split into three,Split a dice in two|On six|🪚[dice]▶️[dice][dice][dice]
+Reduce the countdowns|on all equipment to zero,all countdowns▶0
+Split a dice into 1s[;]|and roll an extra 1,🪚[dice]▶[dice]1|and roll an extra 1
+[sword]1 damage[;] bump dice|[gray](Reuseable),[sword]1 damage|dice🔢➕1|
+Inflict [poison]1 poison[;] roll a|dice with value 3 or more,Inflict [poison]1 poison| roll a dice 🔢⤴️3
+Inflict [shock] shock[;]|[fire] burn[;] or [ice] freeze,Inflict❓[shock] shock[fire] burn[ice] freeze
+Roll two dice that|add up to six,Roll two dice|🔢➕🔢six
+Reduce CPU by a quarter,➖🖥➗4
+50% chance of either|curse or good luck,🪙🙆➡curse|🪙⛔🙆➡🍀
+Increase [shield] shield|by 25 percent,➕[shield]➗4
+Get a new dice[;] on even|get +1 dice this fight,Get a new dice|on even|get +1 dice this fight
+Do [sword]1 damage[;] reroll dice|(If [mana]>=6: return 5 or 6),Do [sword]1 damage reroll dice|If [mana]>=6:❓[dice]5[dice]6
+Do [sword]1 damage[;] reroll dice|(If [mana]>=4: return 5 or 6),Do [sword]1 damage reroll dice|If [mana]>=4:❓[dice]5[dice]6
+Do [sword]1 damage[;] reroll dice|(If [mana]>=8: return 5 or 6),Do [sword]1 damage reroll dice|If [mana]>=8:❓[dice]5[dice]6
+Do [sword]<d6> damage[;]|gain [mana]2 mana on 4 or less,Do [sword]<d6> damage|if [dice]⤵4|gain [mana]2 mana
+[sword]<d6>[;] reduce counts by <d6>|[gray](Reuseable),[sword]<d6>|reduce 🧮 by <d6>|
+Do [sword]1 damage[;]|four times,🔁4 Do [sword]1 damage
+Self inflict [fire]2 burns|(Always offered as scrap),📥[fire]2 burn|Always offered as scrap
+Do [sword]<double> damage|to both enemy and you,Do [sword]<double> damage enemy and you
+Do [sword]<d6> damage[;] if|enemy hp is full[;] do triple,Do [sword]<d6> damage| enemy [heart]⤴️[heart]📊➡triple
+Do [sword]<d6> damage[;] if|enemy hp is full[;] do +[sword]3,Do [sword]<d6> damage| enemy [heart]⤴️[heart]📊➡+[sword]3
+Reduce health by one third,➖[heart]➗3
+Reuse all equipment,all equipment🔁🖐
+Get more dice,Get♾️dice
+All dice become 6,All dice ▶ 6
+Keep dice after attack,attack➡Keep dice
+Reuse next equipment,[recycle]next equipment
+Evade next attack,[dodge] next attack
+[]-1 to all dice,all dice🔢-1
+[]+1 to all dice,all dice🔢+1
+Flee Immediately,🚪👉🖐
+Duplicate all dice,all dice▶[dice][dice]
+Internal function when robot clicks roll,
+Roll one more dice,Roll ➕ one dice
+Jackpot guaranteed,Jackpot👉⌛
+Copy first card twice,⏮🛠▶🛠🛠🛠
+Split a random dice,🪚a random dice
+Discard current hand,👐🛠🛠🛠
+Copy the next card,next🛠▶🛠🛠
+Matching cards can be used for free this turn,🧦🛠🖐⛔[dice]this turn
+Set all dice to the same random value,Set all dice to 🧦 random value
+Double next action[;] but that equipment cannot be used next turn.,next🛠🖐🖐👉turn⛔used next turn
+Roll between 2 and 5 extra 1s,roll 2➖5 1s
+Swap all equipment,↕all equipment
+Reduce by [reduce]2,[reduce]2
+Gain [recycle]1 re-equip,Gain [recycle]1
+Copy a random dice,random dice▶[dice][dice]
+Roll three dice at the current uptick value,Roll three dice 👉 🎚 value
+Turns the highest dice rolled into a 1.,⬆[dice]roll▶1
+Sets the next dice on fire. Costs [heart]2[] hp to extinguish.,🖐⏩[dice]➡Costs [heart]2 hp
+Temporarily disables random equipment.|Can use a dice to unshock.,random equipment🤷|Can use a dice➡🗑️[shock]
+Temporarily weakens random equipment.|Equipment becomes less powerful.,random equipment➖|Equipment👎
+Cannot use special character skills or limit breaks.,⛔use🦸🌟
+Avoid the next attack.,next attack⛔
+Cannot see the dice values.,⛔👀dice values
+Lose [heart]<value> health at the start of turn. Pierces shields.,Lose [heart]<value> health♾turn|🤷[shield]
+The next equipment will be used twice.,The next equipment🖐🖐
+The next equipment you use can be used again on this turn.,The next equipment you use this turn➕1🖐
+Take less damage from every attack this turn.,subtract damage every attack this turn
+All equipment becomes reusable.,All equipment 🔁🖐
+Too many dice.,📥♾[dice]
+Next attack ignores shield.,Next attack🤷shield
+All equipment has a 50% chance to fail.|Disappears once triggered.,All equipment has a 50% chance to 😐|🖐➡➖[curse]
+Equipment is mixed-up and obscured this turn.,Equipment 🤹|⛔👀🛠 this turn
+Blocks incoming damage.,➖damage
+Can only be killed with a wooden stake.,⛔🪵📌➡⛔⚰
+Stash some dice for next turn.,📥dice next turn
+Enemy takes [sword]<value> damage if they attack this turn.|(1 for each [thorns] thorn.),↗📤🤕👉⌛➡↗📥<value>🤕|1🤕each [thorns]
+Items that depend on luck have a higher chance to succeed.,🪙🛠⬆🍀
+Items that depend on luck work 100% of the time.,🪙🛠🍀♾🖐
+If you exceed the CPU target[;] reduce CPU by the excess.,CPU⛔⤵🎉➡➖👉CPU
+When you use equipment[;] increase CPU by <value>.,use equipment➡increase CPU by <value>
+The next roll won't exceed the CPU target.,The next roll⤵🎉
+Mana is used to grant bonus powers on certain cards.|Disappears at the end of the fight.,🖐[mana]➡🛠👍|➖♾[mana]⏭👉fight
+Place two copies of the next spell you cast.,📥2🛠⏩📓🖐
+Burning dice can be used on equipment[;] but will disable that|equipment for the rest of the turn[;] and for the next turn.,Burning dice used➡equipment🤷👉turn next turn
+Temporarily disables random equipment.|Costs [heart]3[] hp to unshock.,random equipment🤷|Costs [heart]3 ➡🗑️[shock]
+Take [sword]<value> extra damage from each attack.|([sword]1 per each point of weaken inflicted.),Take [sword]<value> extra damage from each attack|[sword]1 each weaken
+Limit break is less powerful.,🌟👎
+Cannot see remaining health.,⛔👀health
+A random piece of equipment is poisoned. Reduce the|countdown to zero by the end of the turn[;] or take damage.,A random equipment is poison| 🧮⛔0 the turn➡take damage
+The next equipment will be used twice[;] but|cannot be used next turn.,The next equipment used used but|cannot used next turn
+All equipment has a 50% chance to switch target.|Disappears once triggered.,All equipment has a 50% chance ↔↙️↗|🖐➡➖[curse]
+Restores [heart]<value> health at the start of your next turn.|([shield] disappears after healing.),➕ [heart]<value> health at the start of your next turn
+50% chance to avoid the next attack[;] lasts until|something triggers it.,50% chance next attack⛔🤕|🖐➡➖[dodge]
+The next dice you use can be used again on this turn.,The next dice you use 🔁used on this turn
+Block the next status effect.,the next status effect🤷
+Locked dice need to be used in the order they are rolled[;]|before you can use any other dice.,[lock][dice]❗⏮[dice]used
+Cannot be killed by anything. Counter reduces by one on|each turn. If it reaches zero[;] you die.,⛔⚰|➖🧮each turn|🧮0➡⚰
+Restore all health when defeated[;] once.,⚰➡➕all health|once
+Counter reduces by one on each turn.|If it reaches zero[;] transform into a bear.,➖🧮each turn|If 🧮0|📥🐻👗
+If defeated[;] reflect any excessive damage back at you.,damage⤴[heart]➡📤👉⤴damage
+(should not appear),
+Duplicate dice are immediately destroyed.,[dice]🧦➡🗑
+Roll 2 dice[;] -5[heart],Roll 2 dice -5[heart]
+Cures Poison,Cures poison
+Inflict [shock][;] [fire][;] and [ice],Inflict [shock] [fire] and [ice]
+Gain survive[;] lose [heart]6,lose [heart]6 Gain survive
+A different rule change[;] chosen randomly.,❓📜
+All enemy equipment is upgraded.,All enemy equipment ➕
+Both you and your enemies start each|fight with [fury]Fury[].,each fight you enemy 📥 [fury]
+Enemies can throw unused dice at you.,enemy 🤾 unused dice
+Enemies get 20% extra health.,enemy get [heart] ➗5
+You are [curse]Cursed[] at the start of|every turn.,you [curse] every turn
+Enemies will [dodge]Dodge[] your first|attack every turn.,enemy will [dodge]Dodge your first attack every turn
+Burning dice cost [heart]5[] hp to extinguish.,if burning dice🧯| cost [heart]5 hp
+One of your dice is [ice]Frozen at the|start of every turn.,1[dice][ice] every turn
+One of your dice is [fire]Burning at the|start of every turn.,1[dice][fire] every turn
+On your first turn[;] all your dice rolls|are the same number.,first turn all dice rolls🧦
+Enemies get 10% extra health.,enemy get health ➗10
+Enemies have a chance to go first.,enemy🪙➡first turn
+Everything in the dungeon looks like|a treasure chest.,every 🏰👀🧰
+One of your dice is [blind]Blinded at the|start of every turn.,1[dice][blind] every turn
+Poison is no longer reduced by 1|each turn.,poison ⛔ -1 each turn
+Start with 2 extra dice. Lose 1 dice|every turn[;] until you have just 1 left.,first turn +2 dice|every turn ⤴2 dice➡-1 dice
+If your CPU counter exceeds the|target[;] take [heart]5[] damage.,CPU ⛔⤵ 🎉 ➡take [heart]5[] damage
+The odds of [curse]Curse[] triggering is|reduced to 25%.,[curse]🪙▶🪙🪙🙆
+Instead of causing equipment to fail[;]|[curse]Curse[] reverses your target.,curse equipment ⛔😐|curse equipment ↔↙️↗
+Enemies start each fight with [fury]Fury[].,enemy gain [fury] first turn
+All enemies get a Rock.,all enemy get 🪨
+Enemies always roll a 6.,enemy roll 1 six every turn
+You need an even dice to unshock|[shock]Shocked[] equipment.,[shock] ❗even dice
+Status effects are different.,🔁🌍 status effects
+After 4 turns[;] all enemies transform|into bears.,4 turn ➡ enemy 📥🐻👗
+You will never roll a 6.,you ⛔ roll 6
+Both you and your enemies do +[sword]1|extra damage with each attack.,you enemy do +[sword]1 extra damage with each attack
+When you defeat an enemy[;] excessive|damage is reflected back at you.,damage ⤴ enemy [heart]➡take👉⤴damage
+Switch to [quote]Finders Keepers[quote] rules.,get👀📥📜
+All equipment you find is upgraded.,All equipment ➕
+Start each fight with [poison]2 poison.,first turn get [poison]2
+No duplicates! Matching dice vanish|as soon as they are created.,❗⛔🧦|roll 🧦[dice]➡🗑
+Using any piece of equipment will|reroll a random dice.,use equipment➡reroll a random dice
+At the start of each turn[;] replace one|of your items with a random item.,each turn random item ▶ random item
+Shops can sell any item from the game.,🛒🧝‍♀ gain random item item item
+Add two super enemies.,Add two 🦸 enemy
+Cannot see enemy health after|the first turn.,turn ⤴ 2➡Cannot 👀 enemy health
+If you or your enemy rolls a six[;] it|automatically catches on fire.,you enemy rolls dice six ➡ this dice [fire]
+Both you and your enemies start each|fight with [recycle]Re-Equip_Next[].,first turn you enemy gain [recycle]
+Maximum health no longer increases|when you level up.,➕💪➡[heart]📊⛔⤴
+Reduce scrap choices to two. The|second choice is hidden.,2♻ item|1👀1⛔👀
+Swap all [fire]Fire equipment for [ice]Ice|equipment[;] and vice versa.,[fire] equipment ▶ [ice]|[ice] equipment ▶ [fire]
+Enemies countdowns reduce at|double the normal rate.,enemy use countdowns➡subtract double dice value
+You can't make more than six|moves per turn.,per turn ⤵6 action
+Any enemy can potentially be the|boss of the dungeon.,random enemy 🏰👑
+One spell slot contains a completely|random spell each turn.,One 📮 random item each turn
+Instead of causing damage[;] burning|dice disables equipment.,burning dice ⛔ damage|use➡equipment🤷
+Change [ice]Freeze to instead reduce|the value of all dice by 1.,[ice]➡all dice value -1
+When [poison]Poison deals damage[;] it also|inflicts [weaken]1 weaken.,[poison]deal damage➡inflict [weaken]1
+Take [heart]2 damage at the start of each|turn[;] unless your limit break is full.,each turn🌟⛔⤴📊➡take [heart]2 damage
+At the start of your turn[;] change the|dice requirements for a random item.,every turn random item 📮 random value
+Switch to [quote]You Choose[;] You Lose[quote]|rules.,get ↙️👆↙☹📜
+The next equipment you use will swap target.,The next equipment you use ↔↙️↗
+Take no damage until the end of this turn.,⛔damage this turn
+50% chance to use the next equipment twice[;]|lasts until something triggers it.,50% chance to use use next equipment|use ➡ subtract [haunted]
+(text should not appear - workaround for Polarity Flip + Pandemonium combination),
+You start each turn with [fury]Fury[;] but|it only works 50% of the time.,each turn get [fury]|50% chance ⛔ use
+Enemies get 50% extra health.,enemies add [heart]➗2
+All status effects are doubled.,all status✖2
+Do [shock]<d6> damage[;]|on 6[;] randomise gadget,do [shock]<d6> damage|on 6| get random 🎛️
+Swap the next target,↔↙️↗next item
+Enemy becomes another|enemy of the same level,enemy▶enemy 🧦 💪
+Both fighters lose a|dice next turn,you enemy lose dice next turn
+Destroy all equipment[;]|Do [sword]4 for each destroyed,🗑all equipment|do [sword]4 every 🗑
+Destroy all equipment[;]|Do [sword]3 for each destroyed,🗑all equipment|do [sword]3 every 🗑
+Do damage equal to|twice the difference,do double value subtract value damage
+Do damage equal to|triple the difference,deal triple value subtract value damage
+Do absolutely nothing,😐😐
+Do [sword]<d6> damage[;]|more if weakened...,Do [sword]<d6> damage|if item subtract|deal damage damage🤔
+Do [sword]<d6> damage[;]|even more if weakened...,Do [sword]<d6> damage|if item subtract|deal damage damage damage🤔
+Inflict [weaken]1 weaken to|both fighters,Inflict [weaken]1 weaken you enemy
+Inflict [weaken]2 weaken to|both fighters,Inflict [weaken]2 weaken you enemy
+Do [sword]<d6> damage[;]|errors if not used first,Do [sword]<d6> damage|⚠️ if ⛔ used first
+Do [sword]<d6> damage[;] lock|player dice that roll <d6>,Do [sword]<d6> damage|lock you dice that roll <d6>
+Throw all remaining|dice at once,Throw all unused dice
+Flip a dice on its side,[dice]🔄↘️📐
+Flip a dice on its side|[gray](Reuseable),[dice]🔄↘️📐|
+Do [sword]10 damage if|your limit is charged,if 🌟⤴🌟📊|do [sword]10 damage
+Do [sword]5 damage if|your limit is charged,if 🌟⤴🌟📊|do [sword]5 damage
+Block all self-inflicted|damage on this turn,if you deal damage you this turn|⛔damage
+Do [sword]1 damage[;] and|heal completely,Do [sword]1 damage|[heart]▶[heart]📊
+Do [sword]3 damage[;] and|heal completely,Do [sword]3 damage|[heart]▶[heart]📊
+Heal completely,[heart]▶[heart]📊
+Do [sword]1 damage|(When created: Do [sword]3),Do [sword]1 damage|if you get this item|do [sword]3
+Do [sword]1 damage|(When created: Do [sword]4),Do [sword]1 damage|if you get this item|do [sword]4
+Randomize enemy,enemy▶random enemy
+Do [sword]<value> extra damage with each attack this turn.,each attack this turn deal ➕[sword]<value> damage
+Next turn[;] gain +1 dice this|fight[;] and curse yourself,Next turn gain +1 dice this fight gain curse
+Do [sword]<d6> damage[;] get|new dice (value -1),Do [sword]<d6> damage|get new dice value -1
+Do [sword]1 damage[;] get|new dice (value +1),Do [sword]1 damage|get new dice value +1
+Do [sword]1 damage[;] reroll dice|(Cost [mana]1[]: return two dice)|[gray](Reuseable),Do [sword]1 damage reroll dice|(Cost [mana]1[]: return two dice)|
+Do [sword]2 damage for each|dice used on this ([sword]<evar:dicecount>),Do [sword]2 damage for each|dice used this item|this damage[sword]<evar:dicecount>
+Do [sword]1 damage for each|dice used on this ([sword]<evar:dicecount>),Do [sword]1 damage for each|dice used this item|this damage[sword]<evar:dicecount>

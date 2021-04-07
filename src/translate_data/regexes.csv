@@ -1,0 +1,210 @@
+Pattern,Replacement
+\[\],
+reduce \[reduce\](<\w+>|\d+|all) damage from each attack,[reduce]\1
+\[(\w+)\](<\w+>|\d+|all)? ?(to )?\1s?\b,[\1]\2
+(\w+) \[\1\],[\1]
+freeze \[ice\](<\w+>|\d+|all) dice,[ice]\1[dice]
+\[ice\](<\w+>|\d+|all)? ?freeze,[ice]\1
+freeze,[ice]
+frozen,[ice]
+burns? \[fire\](<\w+>|\d+|all)? dice,[fire]\1[dice]
+\[fire\](<\w+>|\d+|all)? ?burn,[fire]\1
+burnt?(ing)?,[fire]
+(\[shock\])?shocked,[shock]
+shocks?(?!]),[shock]
+weaken \[weaken\](<\w+>|\d+|all)?,[weaken]\1
+weaken(ed)?(?!]),[weaken]
+weak\b,[weaken]
+silence(?!]),[silence]
+dodge(?!]),[dodge]
+blind \[blind\](<\w+>|\d+|all) dice,[blind]\1[dice]
+blind(?!]),[blind]
+poison(?!]),[poison]
+maintains \[fury\],|⛔[fury]
+fury(?!]),[fury]
+block \[reduce\](<\w+>|\d+|all) of,[reduce]\1
+lock \[lock\](<\w+>|\d+|all)? dice,[lock]\1[dice]
+locked,[lock]
+\block(?!]),[lock]
+\[curse\]curse,[curse]
+cursed?(?!]),[curse]
+\[curse\] everyone,[curse]↗️↙️
+\[confuse\]confuse,[confuse]
+block \[shield\],[shield]
+\bshield(?!]),[shield]
+\[thorns\](1?) thorn,[thorns]\1
+if \[mana\]>=(<\w+>|\d+):,[mana]⤴\1➡
+\(cost \[mana\](\d): (.+)\),➖[mana]\1➡\2
+haunt \[haunted\](<\w+>|\d+),[haunted]\1
+(heal|restore|recover)? \[heal\](\S*)( health)?,[heal]\2
+heal \+?\[heart\](<\w+>|\d+)?,➕[heart]\1
+\[heart\](<\w+>|\d+)? health,[heart]\1
+\[heart\](<\w+>|\d+)? hp,[heart]\1
+if above max hp\| (convert excess to|deal excess as),[heart]⤴️[heart]📊➡👉⤴[heart]
+max health,[heart]📊
+health,[heart]
+heal(?!]),[heal]
+jinx(?!]),[jinx]
+survive,⛔⚰
+fatal blow,⚰🤕
+\.{3},|🤔
+reduce the countdowns on all equipment by,♾🛠️🧮➖
+(.+) for (every|each) (\S+) on enemy,\1♾\3↗️
+\+(.+) if enemy is (.+),|↗️\2➡➕\1
+split (a )?dice in two,🪚[dice]▶️[dice][dice]
+split value in two,[dice]🔢➗2
+\ba (\d) ,[dice]🔢\1
+1s,[dice]🔢1
+ones,[dice]🔢1
+a one,[dice]🔢1
+\bone,1
+two dice,[dice][dice]
+a two,[dice]🔢2
+two,2
+a three,[dice]🔢3
+three,3
+fours,[dice]🔢4
+a four,[dice]🔢4
+four,4
+fives,[dice]🔢5
+a five,[dice]🔢5
+five,5
+sixes,[dice]🔢6
+a six,[dice]🔢6
+six,6
+odd\b,135
+even\b,246
+value(?!>),🔢
+(^|\|)([^|]+)on (\d+|jackpot) ?($|\|),\1\3➡\2
+(^|\|)on (\d+|jackpot) ?\|,\1\2➡
+(^|\|)([^|]+)if ([^|]+)($|\|),\1\3➡\2
+(^|\|)if ([^|]+)\|,\1\2➡
+increase (.+) by 50 percent,➕\1➗2
+in (.*) turns\|,\1⌛➡
+\[gray\]\(once per battle\),|1🖐♾️⚔️
+\bfor,
+all,♾️
+(on )?each,♾
+per,♾
+every,♾
+this( one)?,👉
+keep (.+) until (the |your )?next,📥\1⏩
+until (the |your )?next,👉
+(the |your )?next,⏩
+(the |your )?final,⏭
+(the |your )?first,⏮
+at the start of,
+always offered as scrap,🤲♻️♾⚔
+: ,➡️
+if (.+)\|,\1➡️
+\bdo (\+?\[\w+\](<[\w_:]+>|\d+))( damage| dmg)?,📤\1🤕
+deal,📤
+inflict\b,📤
+\bgain,📥
+\bget\b,📥
+\bget\b,📥
+take\b,📥
+keep,📥
+recover,📥
+spare,📥[dice]
+borrow,📥↗
+drain,📥↗
+steals?,📥↗
+add (\+)?,➕
+increase (.+) by,➕\1
+increase,➕
+\+ ?(\[\w+\])?(\d+),➕\1\2
+lose,➖
+subtract,➖
+cure,➖
+-(\d),➖\1
+costs?,➖
+reduce (.+) by half,\1➗2
+reduce (.+) by,\1➖
+reroll,🔄
+repeat,🔁
+change,🔁
+(the )?enemy rolls,↗🔄
+roll a dice,🔄[dice]
+roll an extra dice,➕1[dice]
+dice that roll,[dice]
+rolls?\b,🔄
+action,🖐
+\b(you )?used?,🖐
+unused,⛔🖐
+\(?once\)?,1🖐
+(your )?enemies,↗
+(to )?(the )?enemy,↗
+(to )?yourself,↙
+your?\b,↙
+return,↪️
+set (.+) to,\1▶️
+damage,🤕
+dmg,🤕
+attack,🤕
+fight,⚔
+battle,⚔
+equipment\b,🛠
+item,🛠
+card\b,🛠
+at start of turn,♾⌛
+\bturn,⌛
+(\d)x\b,\1✖️
+<double>,2✖️<d6>
+do double,📤2✖️🤕
+double\b,2✖️
+<triple>,3✖️<d6>
+triple,3✖
+<quadruple>,4✖<d6>
+<quintuple>,5✖<d6>
+(the )?countdowns,🧮
+combine,🪢
+thrown?,🤾
+flip (.*) dice upside down,🔀\1[dice]
+(.*) a random amount,📥\1❓
+random,❓
+status inflicted,↗️🌀
+status( effect)?,🌀
+blessing,🙂🌀
+\bcpu( counter)?( point)?,🖥
+range,📏
+jackpot,🎉
+immune to errors,⛔⚠️
+durability,#
+no effect,😐
+10% chance (to|of)?,🪙⛔⚖🙆➡
+25% chance (to|of)?,🪙🪙🙆➡
+50% chance (to|of)?,🪙🙆➡
+75% chance (to|of)?,⛔🪙🪙🙆➡
+duplicate a dice,[dice][dice]
+both dice,[dice][dice]
+\bdice\b(?!]),[dice]
+the\b,👉
+must,❗
+\+<d6>,➕<d6>
+\+,
+\ba\b,
+\ban\b,
+any,
+of,
+and\b,
+but,
+also,
+from,
+is\b,
+are,
+be,
+has,
+cannot,⛔
+can,
+extra,
+new,
+both,
+then,
+will,
+with,
+\bon,
+\bs\b,
+\[\d+%\],
+ ,
+\(special\),❓❓❓

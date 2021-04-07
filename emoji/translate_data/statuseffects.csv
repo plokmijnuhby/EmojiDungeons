@@ -1,0 +1,68 @@
+Name,Translation,Description
+Frozen,[ice],Turns the highest dice rolled into a 1.
+Frozen_all,[ice]♾,Turns the highest dice rolled into a 1.
+Burn,[fire],Sets the next dice on fire. Costs [heart]2[] hp to extinguish.
+Burn_all,[fire]♾,Sets the next dice on fire. Costs [heart]2[] hp to extinguish.
+Shocked,[shock],Temporarily disables random equipment.|Can use a dice to unshock.
+Weaken,[weaken],Temporarily weakens random equipment.|Equipment becomes less powerful.
+Silence,[silence],Cannot use special character skills or limit breaks.
+Dodge,[dodge],Avoid the next attack.
+Blind,[blind],Cannot see the dice values.
+Poison,[poison],Lose [heart]<value> health at the start of turn. Pierces shields.
+Fury,[fury],The next equipment will be used twice.
+Re-Equip_Next,[recycle],The next equipment you use can be used again on this turn.
+Reduce_by,[reduce],Take less damage from every attack this turn.
+Locked,[lock],Cannot use dice.
+Dice_Trigger_1,[dice]1🔄,Roll an extra dice next turn if the enemy rolls a 1.
+Dice_Trigger_2,[dice]2🔄,Roll an extra dice next turn if the enemy rolls a 2.
+Dice_Trigger_3,[dice]3🔄,Roll an extra dice next turn if the enemy rolls a 3.
+Dice_Trigger_4,[dice]4🔄,Roll an extra dice next turn if the enemy rolls a 4.
+Dice_Trigger_5,[dice]5🔄,Roll an extra dice next turn if the enemy rolls a 5.
+Dice_Trigger_6,[dice]6🔄,Roll an extra dice next turn if the enemy rolls a 6.
+Counter_1,[lock]1,All enemy dice that roll 1 are locked.
+Counter_2,[lock]2,All enemy dice that roll 2 are locked.
+Counter_3,[lock]3,All enemy dice that roll 3 are locked.
+Counter_4,[lock]4,All enemy dice that roll 4 are locked.
+Counter_5,[lock]5,All enemy dice that roll 5 are locked.
+Counter_6,[lock]6,All enemy dice that roll 6 are locked.
+Recycle,🔁,All equipment becomes reusable.
+Infinite,♾,Too many dice.
+Pierce,🗡️,Next attack ignores shield.
+Cursed,[curse],All equipment has a 50% chance to fail.|Disappears once triggered.
+Confuse,[confuse],Equipment is mixed-up and obscured this turn.
+Shield,[shield],Blocks incoming damage.
+Survive,⛔⚰,Survive the next fatal blow.
+Vampire,🧛‍♂,Can only be killed with a wooden stake.
+Lantern,🪔,Stash some dice for next turn.
+Illuminate,💡,Stash some dice for next turn.
+Extra_Turn,📥⌛,Take an extra turn.
+Stash_1,💡1,Roll an extra 1 next turn
+Stash_2,💡2,Roll an extra 2 next turn
+Stash_3,💡3,Roll an extra 3 next turn
+Stash_4,💡4,Roll an extra 4 next turn
+Stash_5,💡5,Roll an extra 5 next turn
+Stash_6,💡6,Roll an extra 6 next turn
+Thorns,[thorns],Enemy takes [sword]<value> damage if they attack this turn.|(1 for each [thorns] thorn.)
+Luck,🍀,Items that depend on luck have a higher chance to succeed.
+Luck+,🍀➕,Items that depend on luck work 100% of the time.
+CPU_Protect,🖥[shield],If you exceed the CPU target[;] reduce CPU by the excess.
+Virus,🖥️🦠,When you use equipment[;] increase CPU by <value>.
+Safe_Bet,🦺🤑,The next roll won't exceed the CPU target.
+Mana,[mana],Mana is used to grant bonus powers on certain cards.|Disappears at the end of the fight.
+Double_Cast,🪄🪄,Place two copies of the next spell you cast.
+Against_All _Odds,⚔♾🪙,Survive all fatal blows until your next turn.
+Bear_Transform,🐻↔,Counter reduces by one on each turn.|If it reaches zero[;] transform into a bear.
+Extra,➕🤕,Do [sword]<value> extra damage with each attack this turn.
+Reflect,↪,If defeated[;] reflect any excessive damage back at you.
+Cannotseeenemyhealth,[blind],(should not appear)
+Vanish,[vanish],Duplicate dice are immediately destroyed.
+RobotIsBlinded,[blind],(should not appear)
+CrystalinaRemix,[mana],(should not appear)
+Keep_Unused_Dice,💡⛔🖐[dice],Stash some dice for next turn.
+bindweakentopoison,[dice],(should not appear)
+WatchRustySword,[dice],(should not appear)
+Swap_Next_Target,↔↙️↗,The next equipment you use will swap target.
+Haunted,[haunted],Using any piece of equipment will|reroll a random dice.
+Block_All,[reduce]♾,Take no damage until the end of this turn.
+Spooky_Fury,[haunted][fury],50% chance to use the next equipment twice[;]|lasts until something triggers it.
+Error_All,[recycle],(text should not appear - workaround for Polarity Flip + Pandemonium combination)

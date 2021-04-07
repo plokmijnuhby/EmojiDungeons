@@ -1,0 +1,620 @@
+Name,Translation,Description
+Absolute Zero,⬆️🥶,Do [ice]25 damage[;]|freeze all dice
+Action!,🎬,Keep a <d6> for next turn|[gray](Reuseable)
+Air Conditioner,🌬🪛,[ice]<timesused> dmg[;] inflict [ice]1 freeze|Add +[ice]1 each use
+Air Crystal,🌬️💎,Do [shock]<d6> damage[;]|[]+[shock]1 shock
+Allen Key,🪛🔑,Combine dice
+Antidote,💊,Cure [poison]<slotdoubles> poison
+Apocalypse,☠️,Do [sword]30 damage[;]|inflict [curse]99 curses
+Arf Arf Arf,🐕🐕🐕,Gain [fury]Fury at the start|of your next turn
+Avalanche,🏂,Do [sword]3 damage[;]|reroll with lower value
+Backfire,↪🔫,Lose [heart]5 health
+Backstab,🚶🗡,Do [sword]<equipmentuse> damage. Add [sword]1|on each item use.
+Bandage,⬆️🩹,Heal [heal]1 health|[gray](Reuseable)
+Bandage Whip,⬆🩹💣,Do [sword]5 damage[;]|inflict [confuse]Confuse
+Bass Drop,🎸,Inflict [weaken]1 weaken to|both fighters
+Battering Ram,🐏,Do 2x[shield]<myshield> damage[;]|but depletes your shield
+Battle Axe,⚔🪓,Do [sword]<double> damage
+Battle Cry,⚔️🗣️,Inflict [weaken]5 weaken|[gray](once per battle)
+Bear Charge,🐻🏃,Repeat next action
+Bear Hug,🐻🫂,Do [sword]<double> damage[;]|lose a dice
+Bear Maul,🐻🖐,Do [sword]<d6> damage
+Bear Potion,🐻🧪,Transform into a bear[;]|recover [heal]12 health
+Bear Roar,🐻🗣️,Weaken [weaken]3 equipment
+Bear Swipe,🐻⚔️,Do [sword]<d6> damage[;]|return the dice
+Bear Trap,🐻🪤,Lock [lock]1 dice
+Bearpick,🐻📎[lock],Shred a big dice into|other[;] smaller dice
+Bee Sting,🐝📌,Do [shock]4 damage[;]|Inflict [shock]1 shock
+Beetle Headbutt,🪲🙆👊,Do [sword]5 damage[;]|Lock [lock]1 dice
+Befuddle,🥴,Duplicate one dice[;]|return the other
+Benchmark,⏱️🖥️,Do [sword]<dicetotal> damage|[gray](equal to total roll)
+Berlin Key,🇩🇪🔑,Set a random dice to <d6>|Return the dice
+Big Moment,⬆️⏲️,Do [sword]7 damage|[gray](Reuseable)
+Big Stick,⬆️🦯,Do [sword]<d6> damage[;]|on 6[;] gain [thorns]1 thorns
+Blammo,🎇,Do [sword]3 damage[;] snap 3|at once to gain [fury]Fury
+Blast Chiller,🌬️🧊,[ice]4 damage + [ice]1 freeze|[gray](Reuseable)
+Blender,🧃🖨️,Split a dice into 1s
+Blight,🤢,Double [poison] poison
+Blizzard,🌨️,Do [ice]<d6> damage[;]|Freeze [ice]1 dice
+Blood Cauldron,🩸🥘,Drain [heart]1 health[;]|get a new dice
+Blood Let,🩸🗡️,Lose [heart]2 hp[;] then heal [heart]1
+Blood Suck,🩸🥤,Drain [heart]<d6> health
+Blue Ocean,🔵🌊,Do [sword]<d6> damage|(Cost [mana]2[]: heal 3)
+Boomerang,🪃,Do [sword]<double> to enemy[;]|but [sword]<d6> to yourself
+Boomewrong,🪃👎,Do [sword]<d6> to enemy[;]|but [sword]<double> to yourself
+Boop,👈,Do [sword]2 damage
+Bop,🤛,Do [sword]3 damage
+Bow Wow Wow,🐺🗯️🗯️🗯️,Make unavailable cards|available[;] return dice
+Boxing Gloves,🥊,Do [sword]<d6> damage[;]|on 1[;] gain [reduce]1 reduce
+Breadcrumbs,🍞,Heal +[heart]1[;] add +[shield]1|[gray](Reuseable)
+Broadsword,⬆[sword],Do [sword]<d6> damage
+Broken Glass,💔🪟,Do [sword]2 damage for|each dice the enemy rolls
+Broken Mirror,💔🪞,Next turn[;] gain +1 dice this|fight[;] and curse yourself
+Broken Sword,💔[sword],Do [sword]<d6> damage[;]|more if weakened...
+Bronze Cauldron,🥉🥘,Do [sword]2[;] get an odd dice|[gray](Reuseable)
+Buckler,🤏[shield],Add [shield]4 to shield
+Bump,➕,Dice value +1
+Bumpblade,➕🗡,Do [sword]1 damage[;] get|new dice (value +1)
+Burning Light,[fire]💡,Deal [fire]<d6> damage|Burn [fire]1 dice
+Buster Sword,🐲[sword],Do [sword]<d6> damage[;]|immune to errors
+Buzzer,🤝[shock],Inflict [shock]1 shock
+Cactus Shield,🌵[shield],Add [thorns]1 thorns|[gray](Reuseable)
+Cactus Spear,🌵🤺,Do [sword]<d6> damage[;]|+[sword]1 for each [thorns] thorn
+Calculator,✖️,Multiply dice together[;]|do that much damage
+Call for Backup Inventor,🙋🎛️🧑,Inspiration|Copy next card
+Call for Backup Inventor?,🙋🎛️🧑❓,Random Access|Copy a random item|from your deck
+Call for Backup Robot,🙋🤖,Slot Machine|Get random equipment
+Call for Backup Robot?,🙋🤖❓,Power Surge|Add +1 to all dice|less than six
+Call for Backup Thief,🙋💰🧑,Yoink|Borrow equipment
+Call for Backup Thief?,🙋💰🧑❓,Black Market|Rent a powerful item|Costs [gold]1[;] you have [gold]<gold>
+Call for Backup Warrior,🙋⚔️🧑,Warrior Smash|[sword]<var:bopcount> dmg[;] +1 per bop
+Call for Backup Warrior?,🙋⚔️🧑❓,Warrior Charge|Add 3 to Kapow damage
+Call for Backup Witch,🙋🧙‍♀,Magic Trick|Discard current hand
+Call for Backup Witch?,🙋🧙‍♀❓,Multicard!|Add an extra card to|your hand (this turn)
+Camouflage,🥸,Blind [blind]2 dice
+Camouflage?,🥸❓,Inflict [blind]Blind for 2 turns
+Campfire,🏕️[fire],[fire]<timesused> dmg[;] burn a dice|Add +[fire]1 each use
+Candle,🕯️,Dice value -1[;] Lose [heart]1 hp|[gray](Reuseable)
+Cannon Fire,🔫🏴‍☠,Do [fire]2 damage[;]|inflict [fire]1 burn
+Capacitor,🔋,[shock]2 damage + [shock]1 shock|[gray](Reuseable)
+Cardboard Sword,📦[sword],Do [sword]<cardboardsword> damage|Lose [sword]2 each use
+Catastrophe,🤯,Inflict [shock] shock[;]|[fire] burn[;] and [ice] freeze
+Cauldron,🥘,Do [sword]1 damage[;]|get a new dice
+Chainsaw,⛓️🪚,Do [sword]<d6> damage[;] if|enemy hp is full[;] do double
+Change Machine,🪙🖨️,Return four 1s
+Charge!,🏃,Bash with shield[;]|do [shield]<myshield> damage
+Cheat Code,🖥️🦹,Increase Jackpot|range this turn
+Chef's Kiss,🧑‍🍳😘,Do [sword]<d6> damage if|this uses your final dice
+Chisel,⚒️,Dice value -1[;] roll a 1 
+Chocolate Cookie,🍪,Repeat next action
+Chocolate Cookie?,🍪❓,Repeat next action[;] but|disable it next turn
+Chorus,🎼,Roll a dice for every|[weaken]1 weaken on enemy
+Claw,🐺🖐,Do [sword]<d6> damage[;]|and add [poison]1 poison
+Cloak,🥼,Gain [reduce]1 reduce|[gray](Reuseable)
+Cold Snap,🥶🤞,Do [sword]5 damage|(If [mana]>=2: inflict freeze)
+Cold War,🥶⚔,Do [ice]5 damage|Inflict [ice]1 freeze
+Cold Wind,🥶🌬,Inflict [ice]1 freeze[;]|return both dice
+Combat Roll,⚔️🔄,Reroll a dice|[gray](Reuseable)
+Combat Roll@jesterwarrior,⚔️🔄@🃏⚔️,Reroll a dice
+Combat Spatula,⚔️🙃,Flip a dice upside down|[gray](Reuseable)
+Combination Lock,🔢[lock],Do [sword]<d6> damage[;] lock|player dice that roll <d6>
+Concatenate,🖥🖥️,CPU counter +<d6>
+Concentration,🤔,In [jinx]<d6> turns[;]|recover <double> health
+Cooling Fan,🌬🖨️,Reduce CPU by half
+Copper Shield,🔴[shield],Add [shield]<double> shield|[gray](once per battle)
+Cornucopia ,🎺🥗,Gain a random blessing
+Counter Spell,⛔🪄,If enemy rolls <d6>[;]|that dice is locked
+Counterfeit,[dice]➕,Duplicate a dice
+Cowbell,🐄🔔,Inflict [weaken]1 weaken|[gray](Reuseable)
+Crescent Moon Blade,🌙🗡,[90%]Even turns: [sword]<eventurn_d6> damage|[90%]Odd turns: [shield]<oddturn_d6> shield
+Crossbow,🏹,Do [sword]9 damage
+Crowbar,➖🧮,Reduce the countdowns|on all equipment by <d6>
+Crucible,🥣,Roll a burning dice|[gray](Reuseable)
+Crystal Sword,💎[sword],Do [sword]<triple> damage|[gray](once per battle)
+Crystallize,➕💎,Create a random|crystal weapon
+Custard Pie,🥧🤦,Blind 2 dice[;] then|return the dice
+Daffodil,🏵️,Dice value -1|(At start of turn: get [mana]1)
+Dagger,🗡,Do [sword]<d6> damage|[gray](Reuseable)
+Dark Shadow,⚫👤,Do [sword]<d6> damage[;]|add 2x random status
+Dark Shadow@versusladyluck,⚫👤@👩🍀,Do [sword]<d6> damage[;]|add 2x random status
+Deep Sea Howl,🦑🗣️,Curse enemy
+Deflect,↩️,Block [shield]2 damage
+Delete,🗑️,Permanently delete the|first card in your hand
+Determination,😬,Do [sword]4 damage[;]|add random status
+Detonator,🕹️,Do [sword]1 damage for|every [poison]1 on enemy
+Dexterity Charm,🛠🪄️,All equipment is|reuseable this turn
+Dice Cannon,[dice]🔫,Do [sword]1 damage|[gray](Reuseable)
+Dice Detonator,[dice]🕹️,Do [sword]<var_tempdicedetonator:throwndicecount> damage|([sword]2 per dice thrown)
+Dire Wolf Howl,🐺🗣️,Curse Enemy|[gray](items might fail)
+Disco Ball,🕺,Get +1 dice next turn|if the enemy rolls a <d6>
+Disco Ball?,🕺❓,Get an extra <d6> next turn|if the enemy rolls a <d6>
+Divine Axe,😇🪓,Do [sword]<triple> damage[;] if|enemy has any shield[;] miss
+Divine Dagger,😇🗡,[sword]<timesused> dmg[;] +[sword]1 each use|[gray](Reuseable)
+Divine Hammer,😇🔨,Do [shock]<double> damage[;]|[shock]Shock all equipment
+Divine Megaphone,😇📣,Do [weaken]<double> damage[;]|[weaken]Weaken all equipment
+Divine Rod,😇🦯,Reduce health to [heart]1
+Divine Sword,😇[sword],Do [sword]<d6> damage[;] if|enemy hp is full[;] do double
+Dodge,[dodge],Dodge next attack
+Dodge?,[dodge]❓,50% chance to dodge|the next attack
+Doppeldice,2[dice],Double dice value
+Doppeltwice,2[dice]2,Double dice value|[gray](Reuseable)
+Double Edge,🪀⚔️,Do [sword]<d6> damage|to both enemy and you
+Dragon's Tooth,🐲🦷,Do [sword]<triple> damage
+Dramatic Entrance,🙌🚶🚪,At the start of the first|turn[;] gain [fury]Fury
+Dramatic Exit,🙌🚪🚶,Do [sword]1. If this is the final|blow[;] gain [heal] 2 max hp
+Duplicate,[dice][dice],Duplicate a dice
+Dust Cloud,🏃💨,Do [sword]<d6> damage[;]|on 6[;] blind [blind]2 dice
+Earth Crystal,[weaken]💎,Do [weaken]<d6> damage|[weaken]Weakens enemy
+Earth Spell,[weaken]🪄,Deal [weaken]5 damage|Weaken [weaken]2 equipment
+Earthquake,🌍💢,Weaken [weaken]3 equipment[;]|do [weaken]6 damage
+Earthquake?,🌍💢❓,Inflict [weaken]3 weaken[;] then|do [weaken]6 damage
+Echo,↪️,Do [weaken]<d6> damage[;]|Inflict [weaken]3 weaken
+Echo Blast,↪️🔊,Do [weaken]<d6> damage|[]+[weaken]2 weaken
+Echo Blast?,↪️🔊❓,Inflict [weaken]2 weaken[;] then|do [weaken]<d6> damage
+Elastic Heart,💗,Do [sword]<d6> damage[;]|recover [heal]1 health
+Electric Shock,[shock]😧,Do [shock]<d6> damage[;]|[]+[shock]1 shock
+Electric Whip,[shock]💣,Do [shock]<d6> damage[;]|shock yourself
+Electromagnet,🧲,Do [sword]<twicetimesused> damage|Add +2 each use
+Enchanted Bolt,🔮🌩️,Do [sword]4 damage|(At start of turn: Do [sword]3)
+Enchanted Shield,🔮[shield],Add [shield]<d6> shield|(Cost [mana]2[]: +[shield]<d6> shield)
+Encore,⏭🔁,Take an extra turn|[gray](once per battle)
+Encyclopedia,📚,Get a temporary gadget|[gray](once per battle)
+Evil Laugh,😈🤣,Do [sword]<d6> damage[;]|double if enemy is cursed
+Executioner's Axe,💀🪓,Do [sword]<double> damage|(At the start of your turn[;]|haunt [haunted]2 dice)
+Fade,🥀,Do [sword]<d6> damage[;]|Inflict [vanish]Vanish
+Finders Keepers,👀📥,After the battle[;] keep|one piece of equipment
+Fire Age,[fire]🗓️,Burn all dice
+Fire Breath,[fire]🌬️,Do [fire]4 damage|Burn [fire]1 dice
+Fire Crystal,[fire]💎,Deal [fire]<d6> damage|Burn [fire]1 dice
+Fire Potion,[fire]🧪,[fire]8 damage[;] burn all dice|[gray](once per battle)
+Fireball,[fire]💥,Deal [fire]<d6> damage|Burn [fire]1 dice
+Fireworks,🎆,Do [sword]1 damage for|each status inflicted
+First Aid Kit,⛑️,Heal [heal]8 health
+Fishing Net,🎣,Do [sword]<d6> damage[;]|lock [lock]1 dice on 3
+Fists,🤛🤜,Do [sword]3 damage|[gray](Reuseable)
+Fixed Payout,🙋🎉,Use an additional|Jackpot ability
+Flame Blast,[fire]🌬️,Do [fire]6 damage for|each burning enemy dice
+Flame Shatter,[fire]💔,Do [fire]<d6> damage[;]|+[fire]3 if enemy is burnt
+Flame Spell,[fire]🪄,Deal [fire]5 damage|Burn [fire]2 dice
+Flame War,[fire]⚔,Do [fire]5 damage|Burn [fire]1 dice
+Flamethrower,[fire]🔫,[fire]<d6> dmg[;] +[fire]2 burn|[gray](once per battle)
+Flaming Sword,[fire]🗡️,Do [fire]<d6> damage[;] +[fire]2 burn|([fire]Burn[] yourself each turn)
+Flight,🪶,Dodge next attack
+Flight?,🪶❓,50% chance to dodge|the next attack
+Flower Pot,🪴,Get a new dice[;]|on 4[;] gain [mana]1 mana
+Flying Skull,🥏💀,Do [sword]<d6> damage[;]|on 6[;] inflict [curse]Curse
+Fool's Fire,🤡[fire],Inflict [vanish]Vanish
+Fool's Frost,🤡[ice],Inflict [vanish]Vanish
+Forcefield,🌬️[shield],Add [shield]<dicerolled> shield[;]|add [shield]1 each roll
+Forge,🧱🔨,Permanently upgrade the|first card in your hand|[gray](once per battle)
+Fortify,🏰,Increase [shield] shield|by 50 percent
+Four Handed Sword,[sword][sword][sword][sword],Do [sword]<d6> damage
+Four Leaf Clover,🍀,Double the success odds|of chance based items
+Free Spin,💲0🎰,Change jackpot abilities|[gray](Reuseable)
+Freeze Spell,🧊🪄,Deal [ice]5 damage|Freeze [ice]2 dice
+Freeze Spell?,🧊🪄❓,Deal [ice]5 damage|Inflict [ice]2 freeze
+Frogsword,🐸[sword],Do [sword]<d6> damage
+Front Line,⚔️⚔️⚔️,Lose [heart]3 health[;] gain|[shield]3 shield[;] return the dice
+Frozen Sword,🧊[sword],Do [ice]<d6> dmg[;] +[ice]2 freeze|([ice]Freeze[] yourself at the|start of each turn)
+Fruit Bowl,🍍🍲,Do [sword]1 damage[;] reroll dice|(Cost [mana]1[]: return two dice)
+Furnace,🧱[fire],[fire]4 damage + [fire]1 burn|[gray](Reuseable)
+Fury Spell,[fury]🪄,Repeat next action
+Gemstone Staff,💎🦯,Do [ice]6 damage|Freeze [ice]1 dice
+Gemstone Staff?,💎🦯❓,Do [ice]6 damage|Inflict [ice]1 freeze
+Giant Spatula,⬆️🙃,Flip all your dice|upside down
+Gladioli,🌼,Do [sword]<d6> damage[;]|gain [mana]2 mana on 2 or less
+Glare,👀,Lock [lock]1 dice|[gray](Reuseable)
+Glass Cauldron,🪟🥘,Freeze [ice]1 dice[;]|roll a one
+Glue,[lock],Lock [lock]1 dice|[gray](Reuseable)
+Gold Cauldron,🥇🥘,Do [sword]1 damage[;]|get an even dice
+Gold Dagger,🥇🗡,Do [sword]<d6> damage[;]|if even[;] get a new dice
+Gong,🔔🔨,Do [sword]4 damage per [weaken]1|Enemy loses all weaken
+Grand Finale,⬆️⏭,Do [sword]15 damage
+Grindstone,🛹🪨,Increase all equipment|durability by 1
+Gumball Machine,🍬🖨️,Recover [heal]1 health[;]|get a new dice
+Hacksaw,🪚,Split a dice in three
+Hailstone,🌧🧊[weaken],Do [ice]2 damage[;]|inflict [ice]1 freeze
+Half Moon Charm,🌛🪄,Roll a six
+Hall of Mirrors,🪞🏠,[]+1 dice this fight
+Hammer,🔨,Do [shock]<d6> damage[;]|on 6[;] inflict [shock]1 shock
+Hard Hat,👷🎩,Reduce [reduce]1 damage|from each attack
+Hard Hat?,👷🎩❓,Block [reduce]1 of the|next status effect
+Harmony,🎶,Do [weaken]<d6> damage[;] return|dice if enemy is weakened
+Harvest Scythe,🌾[sword],Consume spell in slot <d6>|to do [sword]<quadruple> damage
+Haunt,[haunted],Do [sword]<d6> damage[;]|Haunt [haunted]3 dice
+Headbutt,🙆👊,Do [sword]<d6> damage|[gray](Reuseable)
+Healing Crystal,🩹💎,Recover [heal]<d6> health
+Health Tonic,[heal]🧪,Heal [heal]8 health|(to enemy)
+Heat Sink,➖🌡️,Reduce CPU|counter by <d6>
+Heatwave,🥵,Do [fire]4[;] inflict [fire]1 burn|[gray](once per battle)
+Hedge Clippers,🌿✂️,Do damage equal to|twice the difference
+Hex,🪄,Even: [weaken]1 weaken|Odd: [shock]1 shock
+Hi Vis Jacket,🦺,Add [shield]<d6> shield|(Gain [reduce]1 each turn)
+Hibernate,☃️💤,Recover [heal]<d6> health
+High Note,⬆️🎵,Do [sword]12 damage
+High Voltage,⬆️[shock],Do [shock]<d6> damage[;] return|dice if enemy is shocked
+Hijinx,⬆️[jinx],Reduce all Jinx|countdowns by [jinx]1
+Hole Puncher,🕳️👊,Do [sword]8 damage|[gray](Reuseable)
+Hollow Crystal,⭕💎,Do [sword]<d6> damage
+Honey,🍯,Reroll the dice[;] get a|higher value than before
+Honeysuckle,🌺,Recover [heal]1 health[;]|gain [mana]1 mana
+Hookshot,🪝🔫,Next equipment has|+1 use this turn
+Hookshot?,🪝🔫❓,Keep the next dice you|use[;] and return this dice
+Hurricane,🌪️,Do [sword]4[;] lock [lock]1 dice|[gray](once per battle)
+Ice Age,🧊🗓️,Freeze all dice
+Ice Breath,🧊😤,Do [ice]4 damage|Inflict [ice]1 freeze
+Ice Crystal,🧊💎,Do [ice]<d6> damage[;]|Freeze [ice]1 dice
+Ice Crystal?,🧊💎❓,Do [ice]<d6> damage[;]|Inflict [ice]1 freeze
+Ice Potion,🧊🧪,[ice]8 damage[;] freeze all dice|[gray](once per battle)
+Ice Shard,🧊📌,Do [ice]<d6> damage[;]|Freeze [ice]1 dice
+Ice Shard?,🧊📌❓,Do [ice]<d6> damage[;]|Inflict [ice]1 freeze
+Ice Shatter,🧊💔,Do [ice]<d6> damage[;]|+[ice]3 if enemy is frozen
+Icecube,🧊,Inflict [ice]1 freeze|[gray](Reuseable)
+Iced Latte,🧊☕,Self inflict [ice]1 freeze|(Always offered as scrap)
+Icicle,🧊🧊,Do [ice]2 damage[;]|inflict [ice]1 freeze
+Ignite,[fire],Inflict [fire]1 burn[;]|return both dice
+Illuminate,💡,Get 2x[dice]<d6>s next turn
+Incoming!,📨,Add a Juggling Ball to|your deck for this fight
+Increment,➕🖥️,CPU counter + 1|[gray](Reuseable)
+Inferno,🏠[fire],Do [fire]<d6> damage[;]|Burn [fire]1 dice
+Infestation,🪰,Curse everyone|[gray](items might fail)
+Infliction,📤,Do [sword]3 damage
+Ink Splat,🦑⚫,Blind [blind]1 dice
+Ink Splat?,🦑⚫❓,Inflict [blind]Blind for 1 turn
+Inventor Gadgets,🎛️🧑🎛,(special)
+Iron Armor,[reduce],Reduce [reduce]2 damage|from each attack
+Iron Armor?,[reduce]❓,Block [reduce]2 of the|next status effect
+Iron Shield,[shield],Add [shield]<d6> shield
+Jab,⬆📌,Do [sword]<d6> damage[;]|Gain [thorns]2 thorns
+Javelin,🤾🤺,Do [sword]10 damage if|your limit is charged
+Jealous Sword,🥺[sword],Do [sword]<d6> damage[;]|errors if not used first
+Jester Deck,🃏🧑🗃️,(special)
+Judgement,🧑‍⚖,(special)
+Judgement@animals,🧑‍⚖@🐄,Do [sword]<triple>[;] animals|take only [sword]1 damage
+Judgement@bosses,🧑‍⚖@👑,Do [sword]<triple>[;] bosses|take only [sword]1 damage
+Judgement@dicepeople,🧑‍⚖@[dice]⚔️,Do [sword]<triple>[;] dice|people take only [sword]1
+Judgement@eyewear,🧑‍⚖@👓,Do [sword]<triple>[;] things with|eyewear take only [sword]1
+Judgement@floating,🧑‍⚖@🎈,Do [sword]<triple>[;] things that|can float take only [sword]1
+Judgement@fullhp,🧑‍⚖@⬆️[heart],Do [sword]<triple>[;] if target has|full health[;] take only [sword]1
+Judgement@green,🧑‍⚖@🟢,Do [sword]<triple>[;] green things|take only [sword]1 damage
+Judgement@hats,🧑‍⚖@🎩,Do [sword]<triple>[;] hat wearers|take only [sword]1 damage
+Judgement@level1,🧑‍⚖@💪1,Do [sword]<triple>[;]  level 1|monsters take only [sword]1
+Judgement@limbs,🧑‍⚖@🦵,Do [sword]<triple>[;] creatures|with more than four limbs|take only [sword]1 damage
+Judgement@lowhp,🧑‍⚖@⬇️[heart],Do [sword]<triple>[;] if target has|[heart]6 or less[;] take only [sword]1
+Judgement@machines,🧑‍⚖@🖨️,Do [sword]<triple>[;] machines|take only [sword]1 damage
+Judgement@magic,🧑‍⚖@🪄,Do [sword]<triple>[;] magic users|take only [sword]1 damage
+Judgement@onfire,🧑‍⚖@[fire],Do [sword]<triple>[;] firey things|take only [sword]1 damage
+Judgement@plants,🧑‍⚖@🌿,Do [sword]<triple>[;] plants|take only [sword]1 damage
+Judgement@poison,🧑‍⚖@[poison],Do [sword]<triple>[;] poison|things take only [sword]1
+Judgement@shields,🧑‍⚖@[shield],Do [sword]<triple>[;] shield|holders take only [sword]1
+Judgement@spears,🧑‍⚖@🤺,Do [sword]<triple>[;] spear|holders take only [sword]1
+Judgement@swords,🧑‍⚖@[sword],Do [sword]<triple>[;] sword|holders take only [sword]1
+Judgement@wings,🧑‍⚖@🦋,Do [sword]<triple>[;] winged|creatures take only [sword]1
+Juggling Ball,🤹,Do [sword]<d6> damage[;]|get a new dice
+Justice,⚖️,Do [sword]<d6> damage[;]|blind all dice
+Kale Salad,🥬🥗,Increase max health by 1|[gray](once per battle)
+Kaleidoscope,💮🔭,Both fighters lose a|dice next turn
+Kapow,💥,Do [sword]<var_tempkapowkludge:kapowcount> damage[;] +1 for|each kapow used this turn
+Katana,🥷[sword],Do [sword]<d6> damage|[gray](Reuseable)
+Keyblade,🔑🗡,Do [sword]3 damage[;]|return the dice
+Kitchen Tongs,🙃➗2,Flip a dice on its side
+Kite Shield,🪁[shield],Add [shield]8 to shield
+Knitting Needle,🧶🪡,Gain [thorns]1 thorns
+Knuckle Duster,👊📌,Do [sword]3 damage|[gray](Reuseable)
+Kunai,🥷🗡️,Do [sword]<double> damage|[gray](Reuseable)
+Lament,😢🗣️,Do [ice]<d6> damage[;]|on 6[;] inflict [ice]1 freeze
+Lantern,🪔,Get 2x<d6>s next turn|[gray](once per battle)
+Last Laugh,⏭🤣,Enemy will survive the|next fatal blow
+Last Laugh?,⏭🤣❓,Enemy will survive for|the next three turns...
+Last Stand,⏭️🧍,Survive the next fatal|blow. (Doesn't stack.)
+Last Stand?,⏭️🧍❓,Survive for three turns...|[gray](once per battle)
+Laugh Track,🤣📼,Curse Enemy|[gray](items might fail)
+Leather Armor,⬇[reduce],Reduce [reduce]1 damage|from each attack
+Leather Armor?,⬇[reduce]❓,Block [reduce]1 of the|next status effect
+Life Crystal,⛑️💎,Recover [heal]<d6> health
+Life Drain,💉,Drain [heart]<d6> health
+Lighter,🚬,Do [fire]2 damage[;]|burn [fire]1 dice
+Lightning Bolt,🌩️,Do [shock]<d6> damage[;]|[]+[shock]1 shock
+Lightning Rod,🌩️🦯,Discharge [sword]<charge> damage|Take damage to charge
+Liquid Cooling,💧🥶,Freeze all of your|own dice
+Liquid Nitrogen,🍨🧪,Do [ice]<d6> damage[;]|on 4[;] inflict [ice]1 freeze
+Liquorice,⚫🍬,Add [poison]2 poison
+Lock 1,[lock]1,Unlocks Keyblade[;]|return the dice
+Lock 2,[lock]2,Unlocks Keyblade[;]|return the dice
+Lock 3,[lock]3,Unlocks Keyblade[;]|return the dice
+Lock 4,[lock]4,Unlocks Keyblade[;]|return the dice
+Lock 5,[lock]5,Unlocks Keyblade[;]|return the dice
+Lock 6,[lock]6,Unlocks Keyblade[;]|return the dice
+Lockpick,📎[lock],Split a dice in two
+Lojinx,⬇[jinx],Do [sword]2 for each [jinx]jinx[;]|then return the dice
+Lollipop,🍭,Dice value -1. On 1[;]|instead return two 1s
+Lucky 7,🍀7,Do [sword]7[;] return a dice
+Lucky Roll,🍀🔄,Reroll the dice[;] get a|higher value than before
+Lucky Star,🍀[confuse],Do [sword]1 damage[;] roll a 5|[gray](Reuseable)
+Lunasa,🌾🗓,Replace the spell in slot <slotdoubles>|with a random spell
+Magic Barrier,🪄🚧,Add [shield]5 shield
+Magic Dagger,🪄🗡,Do [sword]2 damage|[gray](Reuseable)
+Magic Key,🪄🔑,Split a dice in two
+Magic Missile,🪄💥,Do [sword]5 damage
+Magic Reroll,🪄🔄,Reroll unused dice
+Magic Shield,🪄[shield],Add [shield]3 shield
+Magic Spear,🪄🤺,Do [sword]10 damage
+Magic Thistle,🪄[thorns],Gain [thorns]1 thorns|(Cost [mana]1[]: +[thorns]1 extra)
+Magnifying Glass,🔎,Double dice value|(Cost [mana]1[]: instead[;] triple)
+Manic Laugh,🤪,Do [sword]<d6> damage[;]|quadruple if you are cursed
+Marmalade,🍊🥪,Get a [dice]6 next turn
+Master Key,⬆️🔑,Split a dice as|evenly as possible
+Matchstick,🧨,Burns [fire]1 dice|[gray](Reuseable)
+Mechanical Arm,🦾,Do [sword]<dicerolled> damage[;]|add [sword]1 each roll
+Mechanical Leg,🦿,Do [sword]2 damage for each|unused dice ([sword]<doubleunassigneddice> total)
+Mega Storm,⬆⛈,Do [shock]20 damage[;]|[shock]Shock all equipment
+Melody,🎵,Inflict [weaken]1 weaken
+Memorise,👀🧠,Replace the spell in slot <slotdoubles>|with the unexpected spell
+Memory Leak,🚶🗄️,Do [sword]<double> damage|(Slots shrink on each roll)
+Mercy,🥺,In [jinx]6 turns[;]|do [fire]20 damage
+Meteor,☄️,Do [fire]20 damage[;]|burn all dice
+Midnight Charm,🌃🪄,Roll 2 sixes
+Mirror Cauldron,🪞🥘,Get a new dice[;] on 6|get +1 dice this fight
+Mirror Shard,🪞🧩,Do [sword]9 damage[;]|+1 dice this fight
+Missile Launcher,💥🤾,Do [fire]<d6> damage[;]|Burn [fire]2 dice
+Missing Score,🎼🤷,Do [sword]<d6> damage|25% chance to return dice
+Molotov Cocktail,[fire]🍾,Do [fire]<d6> damage[;]|on 4[;] burn [fire]1 dice
+Mood Change,🙂🙁️↔️,Change the weather[;]|recover [heal]3 health
+Moon Beam,🌛☄,Do [sword]5 damage|(If [mana]>=7: double damage)
+Moonlight Spear,🌛🤺,Do [sword]10 damage|(If [mana]>=8: do double)
+Mosquito Bite,🦟🦷,Drain [heart]1 health
+Muddle,❓❓❓,Do [sword]<d6> damage[;]|Inflict [confuse]Confuse
+Mute,🔇,Do [sword]<d6> damage[;]|Inflict [silence]Silence
+Mystery Box,🕵️🧰,Very mysterious
+Nail Bat,📌🏏,Do [sword]<d6> damage|(You lose [heart]2 hp each turn)
+Nightmare,💤💭🪦,Do [sword]999 damage
+Nightstick,🌃🦯,[shock]Shocks the enemy|[gray](Reuseable)
+Northern Lights,🧭💡,Get 2x<d6>s next turn|(If [mana]>=5: get 3 instead)
+Nudge,➖,Dice value -1
+Nudgeblade,➖🗡,Do [sword]<d6> damage[;] get|new dice (value -1)
+Nunchucks,🥷⛓,Do [sword]<d6> damage|[gray](Reuseable)
+Overclock,➕⏲️,Do [sword]2 damage[;] CPU -2|[gray](Reuseable)
+Overwhelm,🌊,[sword]<timesused> dmg[;] +[sword]1 each use|[gray](Reuseable)
+Pandemonium,🌋,Destroy all equipment[;]|Do [sword]4 for each destroyed
+Paper Lantern,🏮,Get 3x<slotdoubles> next turn
+Parrying Dagger,🚧🗡,Do [sword]<d6> damage[;] lock|enemy dice that roll <d6>
+Particle Accelerator,🏃🔬,On 1: Do [sword]<var_tempparticleacceleratorkludge:particleaccelerator> damage|on 2-6: Double damage
+Pea Shooter,🟢🔫,Do [sword]2 damage|[gray](Reuseable)
+Pickaxe,⛏️,[weaken]<d6> damage + [weaken]1 weaken|[gray](Reuseable)
+Pickpocket,💸,Steals [gold]1 gold|[gray](once per battle)
+Picnic Basket,🥪🧺,Keep a <d6> for next turn
+Pierce Spell,📌🪄,Ignore shields
+Pirate Hook,🏴‍☠🪝,Do [sword]<d6> damage[;]|on 5[;] you can re-use this
+Pirate Hook?,🏴‍☠🪝❓,Do [sword]<d6> damage[;]|on 6[;] keep the dice
+Pitchfork,👨‍🌾🔱,Do [sword]<d6> damage[;]|[fire]Burn and [shock]Shock
+Plague,🤒🦠,At the start of each turn[;]|curse everyone
+Plasma Blaster,⬆🔫,Do [sword]<d6> damage
+Plasma Cannon,⬆️🔫👨‍🚀,Do [sword]10 damage
+Plaster,🩹,Heal [heal]1 health|[gray](Reuseable)
+Plastic Shield,👶[shield],Add [shield]<d6> shield
+Pocket Knife,⬇🗡,Do [sword]<d6> damage|[gray](Reuseable)
+Poison Cloud,[poison]☁,Inflict [poison]<d6> poison
+Poison Needle,[poison]🪡,Inflict [poison]1 poison|[gray](Reuseable)
+Poison Slingshot,[poison]🪨🤾,Add [poison]4 poison
+Poison Spell,[poison]🪄,Inflict [poison]4 poison
+Polar Star,🧭[confuse],Do [sword]<double> damage[;] can|only use on even turns
+Polarity Flip,🧭↔,Swap the next target
+Polyjuice Potion,🥸🧪,Enemy becomes another|enemy of the same level
+Power Crystal,🔌💎,Gain a random blessing
+Precious Egg,👍🥚,(special)
+Precious Egg@1,👍🥚@1,Contains a powerful item|Keep going!
+Precious Egg@2,👍🥚@2,Contains a powerful item|Keep going!
+Precious Egg@3,👍🥚@3,Contains a powerful item|Keep going!
+Precious Egg@4,👍🥚@4,Contains a powerful item|Keep going!
+Precious Egg@5,👍🥚@5,Contains a powerful item|Keep going!
+Precious Egg@6,👍🥚@6,Contains a powerful item
+Premium Heart,👍[heart],Do [sword]<d6> damage|10% chance of Fury
+Pressure Cooker,🏋️‍♀️🍳,Do [sword]2 damage for each|dice used on this ([sword]<evar:dicecount>)
+Princess Guard,👸💂,Do [sword]<d6> damage|25% chance to add [shield]<d6>
+Punchline,🤭,Do [sword]5 damage
+Puppy Paws,🐶🐾,Roll 2 fives
+Quarterstaff,4🦯,Do [sword]<d6> damage[;] on 4[;]|return the dice
+Rat,🐀,Inflict [poison]1 poison[;]|roll a new dice
+Raw Ambition,🦚,Curse Enemy|[gray](items might fail)
+Ray Gun,🔫,Do [sword]3 damage|[gray](Reuseable)
+Remote Control,📡🕹️,Do [shock]<d6> damage[;]|on 6[;] randomise gadget
+Resonance,💓,Do [weaken]3 damage[;]|+[weaken]2 if enemy is weak
+Robot Calculate,🤖🖥,(special)
+Robot Request,🤖[dice],(special)
+Rock,🪨,Do [sword]<d6> damage|[gray](once per battle)
+Rosepetal Shield,🌹[shield],Mysterious shield|Add [shield]??? shield
+Rosepetal Staff,🌹🦯,Mysterious old staff|Inflict [poison]??? poison
+Rosewood Spear,🌹🪵🤺,Do [sword]<d6> damage[;]|gain [thorns]2 thorns
+Rosewood Spear?,🌹🪵🤺❓,Gain [thorns]2 thorns[;]|do [sword]<d6> damage
+Rotten Core,🔪,Reduce health in half
+Rotten Egg,👎️🥚,(special)
+Rotten Egg@1,👎️🥚@1,Contains a terrible item|(Always offered as scrap)
+Rotten Egg@2,👎️🥚@2,Contains a terrible item|(Always offered as scrap)
+Rotten Egg@3,👎️🥚@3,Contains a terrible item|(Always offered as scrap)
+Rotten Egg@4,👎️🥚@4,Contains a terrible item|(Always offered as scrap)
+Rotten Egg@5,👎️🥚@5,Contains a terrible item|(Always offered as scrap)
+Rotten Egg@6,👎️🥚@6,Contains a terrible item|(Always offered as scrap)
+Rubber Duck,🛀🦆,Do absolutely nothing
+Rubber Mallet,🤡🔨,Do [sword]<d6> damage[;]|on 1[;] also reroll
+Ruby Weapon,💎⚔️,Do [sword]<double> damage
+Ruff Ruff Ruff,🗨️🗨️🗨️🐺,Do [sword]5 damage|(maintains [fury]Fury[])
+Run away!,🚪🏃,Run away!
+Rusty Sword,💔[sword],Do [sword]<d6> damage[;] double|if your health is critical
+Sad Verse,☹️🎼,Do [weaken]<d6> damage|[weaken]Weakens enemy
+Safe Bet,🦺🤑,The next roll won't|exceed the CPU target
+Safety Goggles,🥼🥽,Block all self-inflicted|damage on this turn
+Saw Wave,🪚🌊,Returns a 6 and a 1
+Scissors,✂️,Do [sword]<d6> damage[;]|split dice in two
+Scorpion,🦂,Do [sword]20 damage
+Scrap Book,♻📖,Duplicate a dice|(Always offered as scrap)
+Scrap Bump,♻➕,Dice value +1|(Always offered as scrap)
+Scrap Club,♻♣️,Do [sword]<d6> damage|(Always offered as scrap)
+Scrap Kettle,♻️🫖,Inflict [fire]1 burn|(Always offered as scrap)
+Scrap Metal,♻️🚗,Gain [shield]1 shield|(Always offered as scrap)
+Scrap Nettle,♻[thorns],Gain [thorns]1 thorns|(Always offered as scrap)
+Scrap Spear,♻️🤺,Do [sword]6 damage|(Always offered as scrap)
+Screwdriver,🪛,Do [sword]<d6> damage[;]|on 6[;] reactivate gadget
+Scythe,🌾🔪,Do [sword]<d6> damage[;]|on 6[;] curse yourself
+Second Wind,🌬️🌬️,Take an extra turn|[gray](once per battle)
+Secret Weapon,🤫⚔️,Gain a random blessing
+Seize,🖐️,Lock [lock]1 dice
+Shadow Dice,👤[dice],Duplicate a dice|Lose [heart]<d6> health
+Sharp Spike,📌📌,Do [sword]<double> damage
+Shield Bash,[shield]👊,Bash with shield[;]|do [shield]<myshield> damage
+Shockwave,💢,Do [weaken]<d6> damage[;]|[]+[weaken]1 weaken
+Shooting Star,🌠,Do [sword]<d6> damage[;]|inflict [confuse]Confuse
+Short Circuit,➖➿,Do [sword]<d6> damage[;]|add random status
+Short Sword,⬇[sword],Do [sword]<d6> damage
+Shovel,♠️,Do [weaken]<d6> damage[;]|on 6[;] inflict [weaken]1 weaken
+Shovel?,♠❓,Weaken if you use 6[;] then|do [weaken]<d6> damage
+Shredder,🪚🖨️,Return 12 ones
+Shriek,😱🗣️,Curse Enemy|[gray](items might fail)
+Signal Jammer,📡🚧,Split a dice unevenly
+Silver Cauldron,🥈🥘,Do [sword]1 damage[;]|get an odd dice
+Silver Dagger,🥈🗡,Do [sword]<d6> damage[;]|if odd[;] get a new dice
+Sine Wave,↕️🌊,First dice value +1|Second dice value -1
+Singularity,1,Roll a one|[gray](Reuseable)
+Sinkhole,🕳️,Inflict [weaken]3 weaken
+Six Shooter,6🔫,Do [sword]<d6> damage|[gray](Reuseable)
+Skeleton Key,💀🔑,Set all dice to <slotdoubles>
+Slapsies,🤦,In [jinx]<d6> turns[;]|do [sword]<triple> damage
+Sledgehammer,⬆🔨,Do [shock]8 damage|[shock]Shocks the enemy
+Slime Ball,🍦🟢,Burns [fire]1 dice
+Slingshot,🪨🤾,Do [sword]6 damage[;]|reroll the dice
+Small Shield,⬇[shield],Add [shield]<d6> shield
+Smog Cloud,🏭☁️,Inflict [poison]3 poison|and [blind]3 blind
+Smokey Crystal,🌫️💎,Curse Enemy|[gray](items might fail)
+Smush Together,👏,Combine dice[;] value -1
+Snake Eye Charm,🐍👀🪄,Roll 2 ones
+Snapdragon,🤞🐲,Do [sword]3 damage[;]|on 3[;] gain [mana]2 mana
+Sneeze,🤧,Split a dice into 1s
+Snow Blast,🌨️🌬,Do [ice]6 damage for|each [ice]1 freeze on enemy
+Snowball,🌨⚪,Do [ice]<d6> damage|Freeze [ice]1 dice
+Snowball?,🌨⚪❓,Do [ice]<d6> damage|Inflict [ice]1 freeze
+Snowblower,🌨️🖨️,[ice]<d6> dmg[;] +[ice]2 freeze|[gray](once per battle)
+Snowflake,[ice],Freeze [ice]1 dice
+Snowstorm,🌨🌩️,Do [ice]4[;] inflict [ice]1 freeze|[gray](once per battle)
+Solenoid,🧵,Do [sword]<solenoid> damage|Lose 2 each battle
+Sonic Wave,📢🌊,Do [weaken]<d6> damage|[weaken]Weakens enemy
+Sonic Wave?,📢🌊❓,[weaken]Weaken enemy[;] then|do [weaken]<d6> damage
+Sour Candy,😝🍬,Heal [heal]2. If above max hp[;]|deal excess as damage
+Spanner,🔧,Combine dice
+Spannersword,🔧[sword],Combine dice[;] do [sword]1
+Spare 1,[dice]1,A spare one
+Spare 2,[dice]2,A spare two
+Spare 3,[dice]3,A spare three
+Spare 4,[dice]4,A spare four
+Spare 5,[dice]5,A spare five
+Spare 6,[dice]6,A spare six
+Spare Cycles,🖥[sword],Do [sword]<leftovercpu> damage[;]| [sword]1 for each unused CPU point
+Spark,[shock],Burns [fire]1 dice
+Spatula,🙃,Flip a dice upside down
+Spatulasword,🙃[sword],Do [sword]<d6> damage[;] and|flip the dice upside down
+Spike,📌,Do [sword]<d6> damage
+Spiked Shield,📌[shield],Even: [sword]<evendice_d6> damage|Odd: [shield]<odddice_d6> shield
+Spiky Potion,📌🧪,Do [sword]8 damage|[gray](once per battle)
+Spooky Bolt,[haunted]🔩,Do [sword]1 damage|(When created: Do [sword]3)
+Spooky Noises,[haunted]🔊,Drain 1 health and|haunt [haunted]1 dice
+Splitula,🪚🙃,Flip a dice upside down[;]|duplicate the flipped dice
+Spring Equinox,🐇🗓️,Place two copies of the|next spell you cast
+Spud Cannon,🥔🔫,[sword]2 dmg[;] [sword]4 on jackpot|[gray](Reuseable)
+Square Pair,⏹️⏹️,Roll 2 fours
+Squawk,🐦🗣️,Silence Enemy
+Stack Overflow,📚💥,Do [sword]9 damage[;]|immune to errors
+Staff,🦯,Deal [fire]6 damage|Burn [fire]1 dice
+Starspear,[confuse]🤺,Do [sword]6 damage[;]|add 2x random status
+Stew Pot,🍜,Do [sword]1 damage[;] reroll dice|(If [mana]>=6: return 5 or 6)
+Stubbed Toe,🗄️🦶💢,Do [sword]<double> to yourself|(Always offered as scrap)
+Stumble,🤸,Lose [heart]1 health
+Subdivide,➗,Split a dice evenly
+Summer Solstice,⛱️🗓,Do [sword]<d6> damage|(Cost [mana]4[]: triple damage)
+Sun Beam,🌞☄️,Do [sword]5 damage|(Cost [mana]2[]: double damage)
+Sunburn,🌞[fire],Do [fire]<d6> damage|(Cost [mana]1[]: burn a dice)
+Sweets,🍬,Heal [heal]2. If above max hp[;]|convert excess to shield
+Switch Fighter,↔️⚔,Switch Fighter|[gray](Once per turn)[]
+Sword,[sword],Do [sword]<d6> damage
+Sword Hilt,🗡️↖️,Do [sword]<d6> damage
+System Shock,🖥️[shock],Do [shock]5 damage|Inflict [shock]1 shock
+Table Slam,🗄️👊,Reroll all unused dice[;]|and return this dice
+Target Shield,🎯[shield],Add [shield]<d6> to shield|[gray](Reuseable)
+Tazer,🔌,Do [shock]<d6> damage|[shock]Shocks the enemy
+Telephone,☎️,Do [sword]<d6> damage|In two turns[;] do [sword]<d6>
+Teleport Spell,[dodge]🪄,Dodge next attack
+Teleport Spell?,[dodge]🪄❓,50% chance to dodge|the next attack
+Tetraphobia,4😨,Do [sword]4 damage
+The Ashes,[fire]💨,Do [fire]<d6> damage[;]|Burn [fire]5 dice
+The Cold,🥶,Do [ice]<d6> damage[;]|Freeze [ice]4 dice
+The Curse,[curse],Do [sword]<d6> damage[;]|Inflict curse
+The Inventor,🎛️🧑,Select
+The Jester,🃏🧑,Select
+The Robot,🤖,Select
+The Shadow,👤,Do [sword]<d6> damage[;]|Blind [blind]3 dice
+The Storm,⛈,Do [shock]<d6> damage[;]|Shock [shock]6 and silence
+The Thief,💰🧑,Select
+The Warrior,⚔🧑,Select
+The Wind,🌬️,Do [sword]<d6> damage[;]|Lock [lock]2 dice
+The Witch,🧙‍♀,Select
+Thick Skin,🪖,Add [shield]<d6> to shield[;]|return the dice
+Thief Stolen Card,💰🧑🦸,(special)
+Thunder Spell,🌩️🔊🪄,Deal [shock]5 damage|Shock [shock]2 equipment
+Thunder Storm,🌩️🔊,Do [shock]4[;] inflict [shock]1 shock|[gray](once per battle)
+Time Compression,⏲️🗜️,Undo turn[;] take it again
+Tiny Trebuchet,⬇🤾🖨️,Throw a random dice
+Tower Shield,🏰[shield],Add [shield]<d6> shield
+Toxic Ooze,☣️🛢,Do [sword]<d6> damage[;]|on 6[;] add [poison]2 poison
+Toxic Potion,☣🧪,Inflict [poison]5 poison|[gray](once per battle)
+Transformer,➕🛠,(special)
+Transformer@1,➕🛠️@1,Do [sword]2 damage|Add +2 each battle
+Transformer@10,➕🛠️@10,Do [sword]20 damage|At max level
+Transformer@2,➕🛠️@2,Do [sword]4 damage|Add +2 each battle
+Transformer@3,➕🛠️@3,Do [sword]6 damage|Add +2 each battle
+Transformer@4,➕🛠️@4,Do [sword]8 damage|Add +2 each battle
+Transformer@5,➕🛠️@5,Do [sword]10 damage|Add +2 each battle
+Transformer@6,➕🛠️@6,Do [sword]12 damage|Add +2 each battle
+Transformer@7,➕🛠️@7,Do [sword]14 damage|Add +2 each battle
+Transformer@8,➕🛠️@8,Do [sword]16 damage|Add +2 each battle
+Transformer@9,➕🛠️@9,Do [sword]18 damage|Add +2 each battle
+Trident,🔱,Do [sword]<d6> damage[;]|[ice]Freeze and [shock]Shock
+Two Handed Sword,[sword][sword],Do [sword]<d6> damage
+Ultima Weapon,⬆️⚔️,Do [sword]<d6> damage[;]|double on jackpot
+Uncle,👪,In 6 turns[;]|do [ice]20 damage
+Ungeradedice,➖[dice],Double dice value[;]|then subtract 1
+Upkeep,💁,Gain [shield]<myshield> at the start|of your next turn
+Uptick,🎚,(special)
+Uptick@1,🎚️@1,Increase and reset all dice|[gray](Current uptick: 1)
+Uptick@2,🎚️@2,Increase and reset all dice|[gray](Current uptick: 2)
+Uptick@3,🎚️@3,Increase and reset all dice|[gray](Current uptick: 3)
+Uptick@4,🎚️@4,Increase and reset all dice|[gray](Current uptick: 4)
+Uptick@5,🎚️@5,Increase and reset all dice|[gray](Current uptick: 5)
+Uptick@6,🎚️@6,Reset uptick to 1|[gray](Current uptick: 6)
+Venus Fly Trap,♀️🪰🪤,Do [sword]<d6> damage[;]|on 6[;] restore [heal]2 health
+Venus Gospel,♀️📖,Do [weaken]<d6> damage|25% chance +[weaken]2 weaken
+Very Good Sword,👍[sword],Do [sword]<double> damage
+Virus,🖥️🦠,On each equipment use[;]|increase CPU by 1
+Vise Grip,🗜️,Return two of the|difference between dice
+Wail,😱,Silence Enemy
+Wall of Flame,[fire][fire][fire],[fire]6 dmg + [fire]1 burn|[gray](once per battle)
+Wall of Mirrors,🪞🪞🪞,[]+1 dice this fight|(to enemy)
+Water Pistol,💧🔫,Do [sword]1 damage|[gray](Reuseable)
+Wheel of Fortune,🎡🥠,Issue commandments
+Whip,💣,Do [fire]<d6> damage[;]|on 6[;] inflict [fire]1 burn
+Whisper,🤫,Weaken [weaken]1 equipment
+Wicker Gemstaff,🧺💎🦯,Deal [ice]9 damage|Inflict [ice]2 freeze
+Wicker Staff,🧺🦯,Deal [fire]9 damage|Burn [fire]2 dice
+Wildcard,🃏,
+Wind up Fist,⏰👊,Do [sword]5 damage
+Winds of Winter,🌬️🥶,Do [sword]1 damage for each|[mana]1 mana you have
+Winter Solstice,☃️🗓,Do [sword]<d6> damage|(If [mana]>=12: triple damage)
+Witch Spellbook,🧙‍♀📓,(special)
+Witch Deck,🧙‍♀🗃️,(special)
+Wolf Puppy Bite,🧒🐺🦷,Do [sword]4 damage
+Wooden Shield,🪵[shield],Add [shield]<d6> shield
+Wooden Stake,🪵📌,Takes final [heart]5 hp|from vampires
+Wooden Stake?,🪵📌❓,Do [sword]30 damage|(to vampires)
+Woof Woof Woof,🐺🐺🐺,Repeat next action
+Woof Woof Woof?,🐺🐺🐺❓,Repeat next action[;] but|disable it next turn
+Worm Bite,🪱🦷,Do [sword]1 damage
+Wrecking Ball,🏗️💣,Do [sword]<d6> damage[;]|reduce countdowns by <d6>
+Wrong Answer,❌,Do [sword]1 damage[;] and|heal completely
+Yip Yip Yip,🐶🐶🐶,Reroll a dice|(maintains [fury]Fury[])
+Yoink,⏏️,Borrow equipment
