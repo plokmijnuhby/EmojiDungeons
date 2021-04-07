@@ -26,9 +26,9 @@ def parse(string, bordered=False):
         if char == '\u200D':
             i += 1
             if string[i] in ['\u2620','\u2640','\u2642', '\u2696']:
-                code += '-200D-' + parse_emoji(string[i]) + '-FE0F'
+                code += '-200d-' + parse_emoji(string[i]) + '-fe0f'
             else:
-                code += '-200D-' + parse_emoji(string[i])
+                code += '-200d-' + parse_emoji(string[i])
             i += 1
             continue
         # FE0F is an invisible character that comes up in lots of emojis.
@@ -47,7 +47,7 @@ def parse(string, bordered=False):
         
         # Special FE0F workaround just for weightlifter
         if char == '\U0001F3CB':
-            code = '1F3CB-FE0F'
+            code = '1f3cb-fe0f'
         # Flags
         elif '\U0001F1E6' <= char <= '\U0001F1FF':
             i += 1
@@ -56,7 +56,7 @@ def parse(string, bordered=False):
         elif char > '~':
             code = parse_emoji(char)
         elif '0' <= char <= '9' or char == '#':
-            code = parse_emoji(char) + '-20E3'
+            code = parse_emoji(char) + '-20e3'
         elif char in ['@', '|']:
             result += char
             code = None
