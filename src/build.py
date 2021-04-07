@@ -92,14 +92,14 @@ with open(append_text + 'symbols.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Name','Value','Colour','Type'])
     print('Setting up emojis...')
-    for emoji in translate.emojis:
+    for emoji in sorted(translate.emojis):
         writer.writerow([emoji, emoji, '0x000000', 'IMAGE'])
         shutil.copyfile(f'png/{emoji}.png', graphics + f'{emoji}.png')
     with open(DUNGEONS_ROOT + 'data/text/symbols.csv',
               newline='') as symbols:
         reader = csv.reader(symbols)
         for row in reader:
-            if row[0] in translate.bordered_symbols:
+            if row[0] in sorted(translate.bordered_symbols):
                 symbol = row[0] + '-border'
                 writer.writerow([symbol, symbol, '0x000000', 'IMAGE'])
                 shutil.copyfile(f'symbols/symbol-{row[1]}.png',
