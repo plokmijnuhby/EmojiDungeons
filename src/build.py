@@ -93,7 +93,7 @@ with open(append_text + 'symbols.csv', 'w', newline='') as file:
     writer.writerow(['Name','Value','Colour','Type'])
     print('Setting up emojis...')
     for emoji in sorted(translate.emojis):
-        writer.writerow([emoji, emoji, '0x000000', 'IMAGE'])
+        writer.writerow([emoji, emoji, '0xffffff', 'IMAGE'])
         shutil.copyfile(f'png/{emoji}.png', graphics + f'{emoji}.png')
     with open(DUNGEONS_ROOT + 'data/text/symbols.csv',
               newline='') as symbols:
@@ -101,6 +101,6 @@ with open(append_text + 'symbols.csv', 'w', newline='') as file:
         for row in reader:
             if row[0] in sorted(translate.bordered_symbols):
                 symbol = row[0] + '-border'
-                writer.writerow([symbol, symbol, '0x000000', 'IMAGE'])
+                writer.writerow([symbol, symbol, '0xffffff', 'IMAGE'])
                 shutil.copyfile(f'symbols/symbol-{row[1]}.png',
                                 graphics + f'{symbol}.png')
