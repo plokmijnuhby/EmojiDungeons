@@ -94,7 +94,7 @@ def parse(string, bordered=False):
 
 def makedict(path, do_parse=True):
     result = {}
-    with open(path, 'r', newline='') as file:
+    with open(path, 'r', encoding='utf-8', newline='') as file:
         reader = csv.reader(file)
         # skip the header
         next(reader)
@@ -157,7 +157,7 @@ def translate(text, maxrows=0, debug=False):
 
 
 def add_statuses(path, writer, strict=True):
-    with open(path, newline='') as statuses:
+    with open(path, encoding='utf-8', newline='') as statuses:
         reader = csv.reader(statuses)
         next(reader)
         for row in reader:
@@ -182,7 +182,7 @@ def add_statuses(path, writer, strict=True):
 
 
 def add_remixes(path, writer, strict=True):
-    with open(path, newline='') as remixes:
+    with open(path, encoding='utf-8', newline='') as remixes:
         reader = csv.reader(remixes)
         next(reader)
         for row in reader:
@@ -195,7 +195,7 @@ def add_remixes(path, writer, strict=True):
 
 
 def add_equipment(path, writer, strict=True):
-    with open(path, newline='') as srcfile:
+    with open(path, encoding='utf-8', newline='') as srcfile:
         reader = csv.reader(srcfile)
         next(reader)
         for row in reader:
@@ -238,7 +238,7 @@ def add_equipment(path, writer, strict=True):
 
 
 def add_skills(path, writer, strict=True):
-    with open(path, newline='') as srcfile:
+    with open(path, encoding='utf-8', newline='') as srcfile:
         reader = csv.reader(srcfile)
         next(reader)
         for row in reader:
@@ -274,19 +274,19 @@ def add_mods(output_folder, mods, mods_folder, template_mode):
     shutil.copyfile(translate_data + 'template-equipment.csv',
                     en + 'equipment.csv')
     shutil.copyfile(translate_data + 'template-skills.csv', en + 'skills.csv')
-    with open(en + 'strings.csv', 'a', newline='') as file:
+    with open(en + 'strings.csv', 'a', encoding='utf-8', newline='') as file:
         writer = csv.writer(file)
         for file in find_files(mods, mods_folder, 'statuseffects'):
             add_statuses(file, writer, template_mode)
         for file in find_files(mods, mods_folder, 'remix'):
             add_remixes(file, writer, template_mode)
 
-    with open(en + 'equipment.csv', 'a', newline='') as file:
+    with open(en + 'equipment.csv', 'a', encoding='utf-8', newline='') as file:
         writer = csv.writer(file)
         for file in find_files(mods, mods_folder, 'equipment'):
             add_equipment(file, writer, template_mode)
 
-    with open(en + 'skills.csv', 'a', newline='') as file:
+    with open(en + 'skills.csv', 'a', encoding='utf-8', newline='') as file:
         writer = csv.writer(file)
         for file in find_files(mods, mods_folder, 'skills'):
             add_skills(file, writer, template_mode)

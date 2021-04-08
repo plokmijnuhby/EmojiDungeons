@@ -21,9 +21,10 @@ en = '../emoji/data/text/locale/en/'
 os.makedirs(en)
 text_folder = DUNGEONS_ROOT + 'data/text/'
 
-with open(en + 'fighters.csv', 'w', newline='') as destfile:
+with open(en + 'fighters.csv', 'w', encoding='utf-8', newline='') as destfile:
     writer = csv.writer(destfile)
-    with open('translate_data/fighters.csv', 'r', newline='') as srcfile:
+    with open('translate_data/fighters.csv',
+              'r', encoding='utf-8', newline='') as srcfile:
         reader = csv.reader(srcfile)
         # Skip the header
         writer.writerow(next(reader))
@@ -31,9 +32,11 @@ with open(en + 'fighters.csv', 'w', newline='') as destfile:
             row[2] = translate.parse(row[2], True)
             writer.writerow(row)
 
-with open(translate_data + 'template-strings.csv', 'w', newline='') as destfile:
+with open(translate_data + 'template-strings.csv',
+          'w', encoding='utf-8', newline='') as destfile:
     writer = csv.writer(destfile)
-    with open('translate_data/strings.csv', 'r', newline='') as srcfile:
+    with open('translate_data/strings.csv',
+              'r', encoding='utf-8', newline='') as srcfile:
         reader = csv.reader(srcfile)
         writer.writerow(next(reader))
         for row in reader:
@@ -42,7 +45,8 @@ with open(translate_data + 'template-strings.csv', 'w', newline='') as destfile:
     translate.add_statuses(text_folder + 'statuseffects.csv', writer)
     translate.add_remixes(text_folder + 'remix.csv', writer)
 
-with open(translate_data + 'template-equipment.csv', 'w', newline='') as destfile:
+with open(translate_data + 'template-equipment.csv',
+          'w', encoding='utf-8', newline='') as destfile:
     writer = csv.writer(destfile)
     writer.writerow(['Changed?', 'Name', 'Description',
                      'Name_en', 'Description_en', ''])
@@ -60,7 +64,8 @@ with open(translate_data + 'template-equipment.csv', 'w', newline='') as destfil
     writer.writerow(['', '(generic)', fk_activated,
                      '(generic)', translate.translate(fk_activated), ''])
 
-with open(translate_data + 'template-skills.csv', 'w', newline='') as destfile:
+with open(translate_data + 'template-skills.csv',
+          'w', encoding='utf-8', newline='') as destfile:
     writer = csv.writer(destfile)
     writer.writerow(['Changed?', 'Name', 'Description',
                      'Name_en', 'Description_en', ''])
@@ -88,7 +93,8 @@ shutil.copyfile('other_graphics/fight_transition/merged.atf',
 append_text = '../emoji/_append/data/text/'
 os.makedirs(append_text)
 
-with open(append_text + 'symbols.csv', 'w', newline='') as file:
+with open(append_text + 'symbols.csv',
+          'w', encoding='utf-8', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Name','Value','Colour','Type'])
     print('Setting up emojis...')
@@ -96,7 +102,7 @@ with open(append_text + 'symbols.csv', 'w', newline='') as file:
         writer.writerow([emoji, emoji, '0xffffff', 'IMAGE'])
         shutil.copyfile(f'png/{emoji}.png', graphics + f'{emoji}.png')
     with open(DUNGEONS_ROOT + 'data/text/symbols.csv',
-              newline='') as symbols:
+              encoding='utf-8', newline='') as symbols:
         reader = csv.reader(symbols)
         for row in reader:
             if row[0] in sorted(translate.bordered_symbols):
